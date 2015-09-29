@@ -1,6 +1,9 @@
 {
 :lang :rendille
 :sgpref "ren"
+:datasource "Pillinger-Glaboran1999"
+:geodemoURL "http://www.ethnologue.com/language/rel"
+:geodemoTXT "Varieties and subdialects of Rendille are spoken in Kenya, between Lake Turkana and Mt. Marsabit."
 :schemata {
 :case [:Long, :Object, :ObjectIndirect, :Short]
 	  :clauseType [:Main, :Subordinate]
