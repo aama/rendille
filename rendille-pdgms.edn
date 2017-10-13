@@ -5,24 +5,24 @@
 :datasource "Pillinger-Glaboran1999"
 :geodemoURL "http://www.ethnologue.com/language/rel"
 :geodemoTXT "Varieties and subdialects of Rendille are spoken in Kenya, between Lake Turkana and Mt. Marsabit."
-:schemata{:gender [:Common :Fem :Masc],
-          :polarity [:Affirmative :Negative],
-          :case [:Long :Object :ObjectIndirect :Short],
-          :conjClass [:Prefix :Stative :Suffix],
-          :focus [:Foc :Non_focus],
-          :pdgmType [:Finite :NA]
-          :pos [:Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :conjClaspdgmLexs [:Suffix],
-          :derivedStem [:Base :Causative :Pass1 :Pass2 :S :T],
-          :cohesion [:Exclusive :Inclusive],
-          :conjSubType [:Irregular],
-          :proClass [:Clitic :Independent :Possessive],
-          :tam [:Concessive :Imperative :Imperfect :Optative :Perfect],
-          :clauseType [:Main :Subordinate],
-          :number [:Plural :Singular],
-          :cliticType [:Demonstrative :Indefinite :Interrogative :Relative],
-          :deixis [:Far :Medial :Near]}
+ :schemata {:case [:Long  :Object :ObjectIndirect :Short],
+            :clauseType [:Main :Subordinate],
+            :cliticType [:Demonstrative :Indefinite :Interrogative :Relative],
+            :cohesion [:Exclusive :Inclusive :_NA],
+            :conjClaspdgmLexs [:Suffix],
+            :conjClass [:Prefix :Stative :Suffix],
+            :conjSubType [:Irregular],
+            :deixis [:Far :Medial :Near :_NA],
+            :derivedStem [:Base :Pass1 :Pass2 :S :T],
+            :focus [:Foc :Non_focus],
+            :gender [:Common :Fem :Masc],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Clitic :Independent :Possessive],
+            :tam [:Concessive :Imperative :Imperfect :Optative :Perfect]
+            :pdgmType [:Finite :PRO]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:conjClass],
@@ -1958,9 +1958,8 @@
 :muterms [
     {:label "rendille-PPoss"
     :note "Pillinger-Galboran1999 p. 41"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSS,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Possessive}
     :terms [[:cohesion :focus :gender :number :person :token],
             [:_NA :Foc :Common :Plural :Person2 "kiinna"],
@@ -1982,9 +1981,8 @@
     }
     {:label "rendille-PClitic"
     :note "Pillinger-Galboran1999 p. 40;masc clitic normally has k - goes_to h / __ V (i.e.,is homophonous w. plural)"
-    :pdgmType :NA
-    :common {:morpheme :PROCLITIC,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Clitic}
     :terms [[:cliticType :deixis :gender :number :token],
             [:Relative :_NA :Common :Plural "hí"],
@@ -2008,9 +2006,8 @@
     }
     {:label "rendille-PInd"
     :note "Pillinger-Galboran1999 p. 40"
-    :pdgmType :NA
-    :common {:morpheme :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:case :cohesion :gender :number :person :token],
             [:ObjectIndirect :_NA :Fem :Singular :Person3 "Common"],
