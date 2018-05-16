@@ -22,7 +22,7 @@
            :pos [:Pronoun :Verb],
            :proClass [:Clitic :Independent :Possessive],
            :tam [:Concessive :Imperative :Imperfect :Optative :Perfect]
-           :vmorphclass [:Finite ]}
+           :vmorphClass [:Finite ]}
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:conjClass],
@@ -35,7 +35,7 @@
  :termclusters [
                 {:label "rendille-VPass2NegIndicImperf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -54,7 +54,7 @@
                  }
                 {:label "rendille-VPass2AffIndicImperf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -73,7 +73,7 @@
                  }
                 {:label "rendille-VBaseAffSubjPerf-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -92,7 +92,7 @@
                  }
                 {:label "rendille-VMidAffConcess-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :T,
                           :lexeme :kar,
@@ -110,7 +110,7 @@
                  }
                 {:label "rendille-VBaseNegIndicImperf-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -129,7 +129,7 @@
                  }
                 {:label "rendille-VBaseAffConcess-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Base,
                           :lexeme :fur,
@@ -147,7 +147,7 @@
                  }
                 {:label "rendille-VNegImprtv-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :mi,
@@ -161,7 +161,7 @@
                  }
                 {:label "rendille-VAffSubjPerf-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
                           :lexeme :mi,
@@ -179,7 +179,7 @@
                  }
                 {:label "rendille-VCausNegSubjImperf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -198,7 +198,7 @@
                  }
                 {:label "rendille-VPass2AffImprtv-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
                           :gender :Common,
@@ -213,7 +213,7 @@
                  }
                 {:label "rendille-VMidAffIndicPerf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -232,7 +232,7 @@
                  }
                 {:label "rendille-VBaseAffSubjImperf-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -251,7 +251,7 @@
                  }
                 {:label "rendille-VAffImprtv-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :mi,
@@ -265,7 +265,7 @@
                  }
                 {:label "rendille-VAffOpt-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :mi,
                           :polarity :Affirmative,
@@ -280,7 +280,7 @@
                  }
                 {:label "rendille-VNegOpt-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :lexeme :haaggan,
                           :polarity :Negative,
@@ -295,7 +295,7 @@
                  }
                 {:label "rendille-VNegIndicImperf-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Stative,
                           :lexeme :haaggan,
@@ -313,7 +313,7 @@
                  }
                 {:label "rendille-VNegIndicPerfIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -332,7 +332,7 @@
                  }
                 {:label "rendille-VPass1NegOpt-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
                           :lexeme :fur,
@@ -348,7 +348,7 @@
                  }
                 {:label "rendille-VAffIndicPerfIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -367,7 +367,7 @@
                  }
                 {:label "rendille-VAffIndicPerf-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :mi,
@@ -385,7 +385,7 @@
                  }
                 {:label "rendille-VAffIndicImperf-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :mi,
@@ -403,7 +403,7 @@
                  }
                 {:label "rendille-VPass1NegSubjImperf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -422,7 +422,7 @@
                  }
                 {:label "rendille-VMidNegIndicImperf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -441,7 +441,7 @@
                  }
                 {:label "rendille-VNegImprtv-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :haaggan,
@@ -455,7 +455,7 @@
                  }
                 {:label "rendille-VCausAffIndicPerf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -474,7 +474,7 @@
                  }
                 {:label "rendille-VAffSubjPerf-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Stative,
                           :lexeme :haaggan,
@@ -492,7 +492,7 @@
                  }
                 {:label "rendille-VBaseNegImprtv-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Base,
                           :gender :Common,
@@ -507,7 +507,7 @@
                  }
                 {:label "rendille-VBaseNegIndicPerf-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -526,7 +526,7 @@
                  }
                 {:label "rendille-VAffSubjImperfIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -545,7 +545,7 @@
                  }
                 {:label "rendille-VNegConcess-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :lexeme :haaggan,
                           :polarity :Negative,
@@ -562,7 +562,7 @@
                  }
                 {:label "rendille-VAffSubjImperf-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Stative,
                           :lexeme :haaggan,
@@ -580,7 +580,7 @@
                  }
                 {:label "rendille-VMidNegOpt-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :T,
                           :lexeme :kar,
@@ -596,7 +596,7 @@
                  }
                 {:label "rendille-VAffImprtv-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
                           :lexeme :haaggan,
@@ -610,7 +610,7 @@
                  }
                 {:label "rendille-VAffImprtvIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
                           :gender :Common,
@@ -625,7 +625,7 @@
                  }
                 {:label "rendille-VPass1AffConcess-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
                           :lexeme :fur,
@@ -643,7 +643,7 @@
                  }
                 {:label "rendille-VPass1NegConcess-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
                           :lexeme :fur,
@@ -661,7 +661,7 @@
                  }
                 {:label "rendille-VPass1AffImprtv-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
                           :gender :Common,
@@ -676,7 +676,7 @@
                  }
                 {:label "rendille-VCausAffSubjPerf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -695,7 +695,7 @@
                  }
                 {:label "rendille-VCausAffIndicImperf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -714,7 +714,7 @@
                  }
                 {:label "rendille-VNegConcess-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :mi,
                           :polarity :Negative,
@@ -731,7 +731,7 @@
                  }
                 {:label "rendille-VCausNegIndicImperf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -750,7 +750,7 @@
                  }
                 {:label "rendille-VPass2AffSubjPerf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -769,7 +769,7 @@
                  }
                 {:label "rendille-VCausNegConcess-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :S,
                           :lexeme :kar,
@@ -787,7 +787,7 @@
                  }
                 {:label "rendille-VBaseNegConcess-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Base,
                           :lexeme :fur,
@@ -805,7 +805,7 @@
                  }
                 {:label "rendille-VMidNegImprtv-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :T,
                           :gender :Common,
@@ -820,7 +820,7 @@
                  }
                 {:label "rendille-VAffConcessIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
                           :lexeme :he,
@@ -838,7 +838,7 @@
                  }
                 {:label "rendille-VPass1AffSubjImperf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -857,7 +857,7 @@
                  }
                 {:label "rendille-VBaseAffOpt-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Base,
                           :lexeme :fur,
@@ -873,7 +873,7 @@
                  }
                 {:label "rendille-VPass1NegIndicPerf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -892,7 +892,7 @@
                  }
                 {:label "rendille-VCausAffOpt-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :S,
                           :lexeme :kar,
@@ -908,7 +908,7 @@
                  }
                 {:label "rendille-VPass2AffOpt-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
                           :lexeme :fur,
@@ -926,7 +926,7 @@
                  }
                 {:label "rendille-VCausAffImprtv-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :S,
                           :gender :Common,
@@ -941,7 +941,7 @@
                  }
                 {:label "rendille-VPass2NegOpt-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
                           :lexeme :fur,
@@ -957,7 +957,7 @@
                  }
                 {:label "rendille-VNegOptIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
                           :lexeme :he,
@@ -973,7 +973,7 @@
                  }
                 {:label "rendille-VNegOpt-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :mi,
                           :polarity :Negative,
@@ -988,7 +988,7 @@
                  }
                 {:label "rendille-VPass1AffSubjPerf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -1007,7 +1007,7 @@
                  }
                 {:label "rendille-VBaseAffIndicPerf-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -1026,7 +1026,7 @@
                  }
                 {:label "rendille-VAffIndicImperf-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Stative,
                           :lexeme :haaggan,
@@ -1044,7 +1044,7 @@
                  }
                 {:label "rendille-VNegSubjImperfIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -1063,7 +1063,7 @@
                  }
                 {:label "rendille-VPass2NegIndicPerf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -1082,7 +1082,7 @@
                  }
                 {:label "rendille-VCausAffConcess-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :S,
                           :lexeme :kar,
@@ -1100,7 +1100,7 @@
                  }
                 {:label "rendille-VPass1AffOpt-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
                           :lexeme :fur,
@@ -1116,7 +1116,7 @@
                  }
                 {:label "rendille-VBaseNegSubjPerf-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -1135,7 +1135,7 @@
                  }
                 {:label "rendille-VNegSubjPerf-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
                           :lexeme :mi,
@@ -1153,7 +1153,7 @@
                  }
                 {:label "rendille-VNegConcessIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
                           :lexeme :he,
@@ -1171,7 +1171,7 @@
                  }
                 {:label "rendille-VCausNegImprtv-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :S,
                           :gender :Common,
@@ -1186,7 +1186,7 @@
                  }
                 {:label "rendille-VNegSubjPerfIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -1205,7 +1205,7 @@
                  }
                 {:label "rendille-VBaseNegSubjImperf-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -1224,7 +1224,7 @@
                  }
                 {:label "rendille-VPass2AffConcess-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
                           :lexeme :fur,
@@ -1242,7 +1242,7 @@
                  }
                 {:label "rendille-VNegImprtvIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
                           :gender :Common,
@@ -1257,7 +1257,7 @@
                  }
                 {:label "rendille-VPass2NegConcess-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
                           :lexeme :fur,
@@ -1275,7 +1275,7 @@
                  }
                 {:label "rendille-VMidNegSubjImperf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -1294,7 +1294,7 @@
                  }
                 {:label "rendille-VAffOpt-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :lexeme :haaggan,
                           :polarity :Affirmative,
@@ -1309,7 +1309,7 @@
                  }
                 {:label "rendille-VPass1AffIndicPerf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -1328,7 +1328,7 @@
                  }
                 {:label "rendille-VPass2NegSubjPerf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClaspdgmLexs :Suffix,
                           :derivedStem :Pass2,
@@ -1347,7 +1347,7 @@
                  }
                 {:label "rendille-VCausAffSubjImperf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -1366,7 +1366,7 @@
                  }
                 {:label "rendille-VAffOptIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
                           :lexeme :he,
@@ -1382,7 +1382,7 @@
                  }
                 {:label "rendille-VPass1AffIndicImperf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -1401,7 +1401,7 @@
                  }
                 {:label "rendille-VMidAffSubjImperf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -1420,7 +1420,7 @@
                  }
                 {:label "rendille-VAffIndicPerf-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Stative,
                           :lexeme :haaggan,
@@ -1438,7 +1438,7 @@
                  }
                 {:label "rendille-VAffConcess-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :lexeme :haaggan,
                           :polarity :Affirmative,
@@ -1455,7 +1455,7 @@
                  }
                 {:label "rendille-VNegSubjPerf-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Stative,
                           :lexeme :haaggan,
@@ -1473,7 +1473,7 @@
                  }
                 {:label "rendille-VCausNegSubjPerf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -1492,7 +1492,7 @@
                  }
                 {:label "rendille-VMidAffSubj-kar"
                  :note "p. 49"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -1511,7 +1511,7 @@
                  }
                 {:label "rendille-VAffIndicImperfIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -1530,7 +1530,7 @@
                  }
                 {:label "rendille-VNegIndicPerf-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Stative,
                           :lexeme :haaggan,
@@ -1548,7 +1548,7 @@
                  }
                 {:label "rendille-VPass1NegSubjPerf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -1567,7 +1567,7 @@
                  }
                 {:label "rendille-VMidNegSubjPerf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -1586,7 +1586,7 @@
                  }
                 {:label "rendille-VMidAffOpt-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :T,
                           :lexeme :kar,
@@ -1602,7 +1602,7 @@
                  }
                 {:label "rendille-VBaseAffImprtv-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Base,
                           :gender :Common,
@@ -1617,7 +1617,7 @@
                  }
                 {:label "rendille-VPass2NegImprtv-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
                           :gender :Common,
@@ -1632,7 +1632,7 @@
                  }
                 {:label "rendille-VAffSubjImperf-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
                           :lexeme :mi,
@@ -1650,7 +1650,7 @@
                  }
                 {:label "rendille-VPass2AffSubjImperf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -1669,7 +1669,7 @@
                  }
                 {:label "rendille-VNegIndicImperfIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -1688,7 +1688,7 @@
                  }
                 {:label "rendille-VMidAffImprtv-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :T,
                           :gender :Common,
@@ -1703,7 +1703,7 @@
                  }
                 {:label "rendille-VNegSubjImperf-haaggan"
                  :note "Pillinger-Galboran1999 p. 45"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Stative,
                           :lexeme :haaggan,
@@ -1721,7 +1721,7 @@
                  }
                 {:label "rendille-VCausNegIndicPerf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -1740,7 +1740,7 @@
                  }
                 {:label "rendille-VCausNegOpt-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :S,
                           :lexeme :kar,
@@ -1756,7 +1756,7 @@
                  }
                 {:label "rendille-VNegIndicPerf-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
                           :lexeme :mi,
@@ -1774,7 +1774,7 @@
                  }
                 {:label "rendille-VNegSubjImperf-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
                           :lexeme :mi,
@@ -1792,7 +1792,7 @@
                  }
                 {:label "rendille-VAffConcess-mi"
                  :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :mi,
                           :polarity :Affirmative,
@@ -1809,7 +1809,7 @@
                  }
                 {:label "rendille-VPass1NegImprtv-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
                           :gender :Common,
@@ -1824,7 +1824,7 @@
                  }
                 {:label "rendille-VAffSubjPerfIrreg-he"
                  :note "Pillinger-Galboran1999 p. 44"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -1843,7 +1843,7 @@
                  }
                 {:label "rendille-VMidNegConcess-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :T,
                           :lexeme :kar,
@@ -1861,7 +1861,7 @@
                  }
                 {:label "rendille-VBaseAffIndicImperf-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -1880,7 +1880,7 @@
                  }
                 {:label "rendille-VPass2AffIndicPerf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -1899,7 +1899,7 @@
                  }
                 {:label "rendille-VMidAffIndicImperf-kar"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -1918,7 +1918,7 @@
                  }
                 {:label "rendille-VPass2NegSubjImperf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -1937,7 +1937,7 @@
                  }
                 {:label "rendille-VBaseNegOpt-fur"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Base,
                           :lexeme :fur,
