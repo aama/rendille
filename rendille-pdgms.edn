@@ -5,8 +5,7 @@
  :datasource "Pillinger-Glaboran1999"
  :geodemoURL "http://www.ethnologue.com/language/rel"
  :geodemoTXT "Varieties and subdialects of Rendille are spoken in Kenya, between Lake Turkana and Mt. Marsabit."
-:schemata {:lexeme [:fur  :haaggan :he :kar :mi],
- :case [:Long :Object :ObjectIndirect :Short],
+:schemata { :case [:Long :Object :ObjectIndirect :Short],
  :clauseType [:Main :Subordinate],
  :cliticType [:Demonstrative :Indefinite :Interrogative :Relative],
  :cohesion [:Exclusive :Inclusive :_NA],
@@ -29,11 +28,13 @@
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:conjClass],
           :otherClass []}
- :lexemes{:fur {:conjClass :Suffix, :derivedStem :Pass1, :gloss "get untied", :lemma "fur-P1", :pos :Verb},
-          :haaggan {:conjClass :Stative, :gloss "be good", :lemma "haaggan-", :pos :Verb},
-          :he {:conjClass :Prefix, :conjSubType :Irregular, :gloss "be", :lemma "he-", :pos :Verb},
-          :kar {:conjClass :Suffix, :derivedStem :Causative, :gloss "cook (tr)", :lemma "karča", :pos :Verb},
-          :mi {:conjClass :Prefix, :gloss "come", :lemma "mi-", :pos :Verb}}
+ :lexemes {
+:fur   {:pos :Verb, :lemma "fur-P1", :gloss "get untied", :conjClass :Suffix, :derivedStem :Pass1},
+:haaggan   {:pos :Verb, :lemma "haaggan-", :gloss "be good", :conjClass :Stative},
+:he   {:pos :Verb, :lemma "he-", :gloss "be", :conjClass :Prefix, :conjSubType :Irregular},
+:kar   {:pos :Verb, :lemma "karča", :gloss "cook (tr)", :conjClass :Suffix, :derivedStem :Causative},
+:mi   {:pos :Verb, :lemma "mi-", :gloss "come", :conjClass :Prefix},
+}
  :termclusters [
                 {:label "rendille-VPass2NegIndicImperf-fur"
                  :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
