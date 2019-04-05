@@ -2,42 +2,42 @@
  :lang :rendille
  :subfamily "Lowland East Cushitic Omo-Tana"
  :sgpref "ren"
- :datasource "Pillinger-Glaboran1999"
+ :datasource "Pillinger-Glaboran1999; abbrev. PG99"
  :geodemoURL "http://www.ethnologue.com/language/rel"
  :geodemoTXT "Varieties and subdialects of Rendille are spoken in Kenya, between Lake Turkana and Mt. Marsabit."
-:schemata { :case [:Long :Object :ObjectIndirect :Short],
- :clauseType [:Main :Subordinate],
- :cliticType [:Demonstrative :Indefinite :Interrogative :Relative],
- :cohesion [:Exclusive :Inclusive :_NA],
- :conjClaspdgmLexs [:Suffix],
- :conjClass [:Prefix :Stative :Suffix],
- :conjSubType [:Irregular],
- :deixis [:Far :Medial :Near :_NA],
- :derivedStem [:Base :Pass1 :Pass2 :S :T],
- :focus [:Foc :Non_focus],
- :gender [:Common :Fem :Masc],
- :number [:Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :polarity [:Affirmative :Negative],
- :pos [:Pronoun :Verb],
- :proClass [:Clitic :Independent :Possessive],
- :tam [:Concessive :Imperative :Imperfect :Optative :Perfect],
- :vmorphClass [:Finite]
- }
+ :schemata { :case [:Long :Object :ObjectIndirect :Short],
+            :clauseType [:Main :Subordinate],
+            :cliticType [:Demonstrative :Indefinite :Interrogative :Relative],
+            :cohesion [:Exclusive :Inclusive :_NA],
+            :conjClaspdgmLexs [:Suffix],
+            :conjClass [:Prefix :Stative :Suffix],
+            :conjSubType [:Irregular],
+            :deixis [:Far :Medial :Near :_NA],
+            :derivedStem [:Base :Pass1 :Pass2 :S :T],
+            :focus [:Foc :Non_focus],
+            :gender [:Common :Fem :Masc],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Clitic :Independent :Possessive],
+            :tam [:Concessive :Imperative :Imperfect :Optative :Perfect],
+            :vmorphClass [:Finite]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:conjClass],
           :otherClass []}
  :lexemes {
-:fur   {:pos :Verb, :lemma "fur-P1", :gloss "get untied", :conjClass :Suffix, :derivedStem :Pass1},
-:haaggan   {:pos :Verb, :lemma "haaggan-", :gloss "be good", :conjClass :Stative},
-:he   {:pos :Verb, :lemma "he-", :gloss "be", :conjClass :Prefix, :conjSubType :Irregular},
-:kar   {:pos :Verb, :lemma "karča", :gloss "cook (tr)", :conjClass :Suffix, :derivedStem :Causative},
-:mi   {:pos :Verb, :lemma "mi-", :gloss "come", :conjClass :Prefix},
-}
+           :fur   {:pos :Verb, :lemma "fur-P1", :gloss "get untied", :conjClass :Suffix, :derivedStem :Pass1},
+           :haaggan   {:pos :Verb, :lemma "haaggan-", :gloss "be good", :conjClass :Stative},
+           :he   {:pos :Verb, :lemma "he-", :gloss "be", :conjClass :Prefix, :conjSubType :Irregular},
+           :kar   {:pos :Verb, :lemma "karča", :gloss "cook (tr)", :conjClass :Suffix, :derivedStem :Causative},
+           :mi   {:pos :Verb, :lemma "mi-", :gloss "come", :conjClass :Prefix},
+           }
  :termclusters [
                 {:label "rendille-VPass2NegIndicImperf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -56,7 +56,7 @@
                          [:Fem :Singular :Person3 "má furnanto / má furmanto"]]
                  }
                 {:label "rendille-VPass2AffIndicImperf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -75,7 +75,7 @@
                          [:Common :Plural :Person3 "furnamaan"]]
                  }
                 {:label "rendille-VBaseAffSubjPerf-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -94,7 +94,7 @@
                          [:Common :Plural :Person2 "furteen"]]
                  }
                 {:label "rendille-VMidAffConcess-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -112,7 +112,7 @@
                          [:Masc :Singular :Person3 "karsátéey"]]
                  }
                 {:label "rendille-VBaseNegIndicImperf-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -131,7 +131,7 @@
                          [:Fem :Singular :Person3 "má furto"]]
                  }
                 {:label "rendille-VBaseAffConcess-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -149,7 +149,7 @@
                          [:Common :Plural :Person2 "fúrteenéey"]]
                  }
                 {:label "rendille-VNegImprtv-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -163,7 +163,7 @@
                          [:Plural "iimaatána"]]
                  }
                 {:label "rendille-VAffSubjPerf-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
@@ -181,7 +181,7 @@
                          [:Common :Singular :Person1 "imiy"]]
                  }
                 {:label "rendille-VCausNegSubjImperf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -200,7 +200,7 @@
                          [:Common :Plural :Person2 "íkarín"]]
                  }
                 {:label "rendille-VPass2AffImprtv-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -215,7 +215,7 @@
                          [:Singular "furnam"]]
                  }
                 {:label "rendille-VMidAffIndicPerf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -234,7 +234,7 @@
                          [:Common :Singular :Person1 "má karsan"]]
                  }
                 {:label "rendille-VBaseAffSubjImperf-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -253,7 +253,7 @@
                          [:Common :Plural :Person3 "furaan"]]
                  }
                 {:label "rendille-VAffImprtv-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -267,7 +267,7 @@
                          [:Plural "amiíta"]]
                  }
                 {:label "rendille-VAffOpt-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :mi,
@@ -282,7 +282,7 @@
                          [:Masc :Singular :Person3 "á yímaat"]]
                  }
                 {:label "rendille-VNegOpt-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :lexeme :haaggan,
@@ -297,7 +297,7 @@
                          [:Common :Plural :Person1 "úun nah haagganéynan"]]
                  }
                 {:label "rendille-VNegIndicImperf-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Stative,
@@ -315,7 +315,7 @@
                          [:Fem :Singular :Person3 "má haaggán"]]
                  }
                 {:label "rendille-VNegIndicPerfIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -334,7 +334,7 @@
                          [:Common :Plural :Person2 "má ehéynan"]]
                  }
                 {:label "rendille-VPass1NegOpt-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -350,7 +350,7 @@
                          [:Fem :Singular :Person3 "úun (us) fúrmin"]]
                  }
                 {:label "rendille-VAffIndicPerfIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -369,7 +369,7 @@
                          [:Masc :Singular :Person3 "eheneet / eheet / ahanaay"]]
                  }
                 {:label "rendille-VAffIndicPerf-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -387,7 +387,7 @@
                          [:Common :Plural :Person1 "nimiy"]]
                  }
                 {:label "rendille-VAffIndicImperf-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -405,7 +405,7 @@
                          [:Common :Plural :Person3 "yamiitiin"]]
                  }
                 {:label "rendille-VPass1NegSubjImperf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -424,7 +424,7 @@
                          [:Common :Plural :Person2 "má furmin"]]
                  }
                 {:label "rendille-VMidNegIndicImperf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -443,7 +443,7 @@
                          [:Common :Plural :Person3 "má karsataan"]]
                  }
                 {:label "rendille-VNegImprtv-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
@@ -457,7 +457,7 @@
                          [:Singular "haaggán ehéynan"]]
                  }
                 {:label "rendille-VCausAffIndicPerf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -476,7 +476,7 @@
                          [:Common :Singular :Person2 "karisse"]]
                  }
                 {:label "rendille-VAffSubjPerf-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Stative,
@@ -494,7 +494,7 @@
                          [:Common :Singular :Person2 "haagganeet"]]
                  }
                 {:label "rendille-VBaseNegImprtv-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -509,7 +509,7 @@
                          [:Plural "afurína"]]
                  }
                 {:label "rendille-VBaseNegIndicPerf-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -528,7 +528,7 @@
                          [:Masc :Singular :Person3 "má furin"]]
                  }
                 {:label "rendille-VAffSubjImperfIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
@@ -547,7 +547,7 @@
                          [:Common :Plural :Person2 "tahiin / tihiin"]]
                  }
                 {:label "rendille-VNegConcess-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :lexeme :haaggan,
@@ -564,7 +564,7 @@
                          [:Common :Plural :Person3 "má haagganéynanéey"]]
                  }
                 {:label "rendille-VAffSubjImperf-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Stative,
@@ -582,7 +582,7 @@
                          [:Common :Plural :Person3 "haaggányahiin / -yihiin"]]
                  }
                 {:label "rendille-VMidNegOpt-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -598,7 +598,7 @@
                          [:Fem :Singular :Person3 "úun (us) kársan"]]
                  }
                 {:label "rendille-VAffImprtv-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :gender :Common,
@@ -612,7 +612,7 @@
                          [:Singular "haaggánahanáaw / -aháaw"]]
                  }
                 {:label "rendille-VAffImprtvIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -627,7 +627,7 @@
                          [:Plural "ahanaáwa / ahaáwa"]]
                  }
                 {:label "rendille-VPass1AffConcess-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -645,7 +645,7 @@
                          [:Common :Plural :Person3 "fúrmeenéey"]]
                  }
                 {:label "rendille-VPass1NegConcess-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -663,7 +663,7 @@
                          [:Fem :Singular :Person3 "má fúrminéey"]]
                  }
                 {:label "rendille-VPass1AffImprtv-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -678,7 +678,7 @@
                          [:Singular "furam"]]
                  }
                 {:label "rendille-VCausAffSubjPerf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -697,7 +697,7 @@
                          [:Common :Plural :Person2 "karisseen"]]
                  }
                 {:label "rendille-VCausAffIndicImperf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -716,7 +716,7 @@
                          [:Common :Plural :Person1 "karinna"]]
                  }
                 {:label "rendille-VNegConcess-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :mi,
@@ -733,7 +733,7 @@
                          [:Common :Singular :Person2 "má imaatanéey"]]
                  }
                 {:label "rendille-VCausNegIndicImperf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -752,7 +752,7 @@
                          [:Common :Plural :Person3 "má karčaan"]]
                  }
                 {:label "rendille-VPass2AffSubjPerf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -771,7 +771,7 @@
                          [:Common :Singular :Person2 "furnante / furmante"]]
                  }
                 {:label "rendille-VCausNegConcess-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -789,7 +789,7 @@
                          [:Common :Singular :Person1 "má karínéey"]]
                  }
                 {:label "rendille-VBaseNegConcess-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -807,7 +807,7 @@
                          [:Common :Plural :Person1 "má fúrinéey"]]
                  }
                 {:label "rendille-VMidNegImprtv-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -822,7 +822,7 @@
                          [:Singular "akársan"]]
                  }
                 {:label "rendille-VAffConcessIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -840,7 +840,7 @@
                          [:Common :Plural :Person1 "eheneéttéey / eheéttéey"]]
                  }
                 {:label "rendille-VPass1AffSubjImperf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -859,7 +859,7 @@
                          [:Common :Singular :Person2 "furanto"]]
                  }
                 {:label "rendille-VBaseAffOpt-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -875,7 +875,7 @@
                          [:Common :Singular :Person1 "á furo"]]
                  }
                 {:label "rendille-VPass1NegIndicPerf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -894,7 +894,7 @@
                          [:Common :Plural :Person3 "má furmin"]]
                  }
                 {:label "rendille-VCausAffOpt-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -910,7 +910,7 @@
                          [:Masc :Singular :Person3 "á karisso"]]
                  }
                 {:label "rendille-VPass2AffOpt-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -928,7 +928,7 @@
                          [:Common :Plural :Person3 "á furnameen"]]
                  }
                 {:label "rendille-VCausAffImprtv-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -943,7 +943,7 @@
                          [:Plural "kárča"]]
                  }
                 {:label "rendille-VPass2NegOpt-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -959,7 +959,7 @@
                          [:Common :Singular :Person1 "úun an fúrnamin"]]
                  }
                 {:label "rendille-VNegOptIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -975,7 +975,7 @@
                          [:Masc :Singular :Person3 "á ehéynan"]]
                  }
                 {:label "rendille-VNegOpt-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :mi,
@@ -990,7 +990,7 @@
                          [:Fem :Singular :Person3 "úun (us) imaatan"]]
                  }
                 {:label "rendille-VPass1AffSubjPerf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1009,7 +1009,7 @@
                          [:Common :Singular :Person2 "furante"]]
                  }
                 {:label "rendille-VBaseAffIndicPerf-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1028,7 +1028,7 @@
                          [:Common :Singular :Person1 "fure"]]
                  }
                 {:label "rendille-VAffIndicImperf-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Stative,
@@ -1046,7 +1046,7 @@
                          [:Common :Plural :Person2 "haaggántahiin / -tihiin"]]
                  }
                 {:label "rendille-VNegSubjImperfIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
@@ -1065,7 +1065,7 @@
                          [:Masc :Singular :Person3 "ehéynan"]]
                  }
                 {:label "rendille-VPass2NegIndicPerf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1084,7 +1084,7 @@
                          [:Common :Plural :Person2 "má furnamin"]]
                  }
                 {:label "rendille-VCausAffConcess-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -1102,7 +1102,7 @@
                          [:Common :Singular :Person2 "karísséey"]]
                  }
                 {:label "rendille-VPass1AffOpt-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -1118,7 +1118,7 @@
                          [:Common :Singular :Person1 "á furmo"]]
                  }
                 {:label "rendille-VBaseNegSubjPerf-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1137,7 +1137,7 @@
                          [:Common :Singular :Person2 "má furin"]]
                  }
                 {:label "rendille-VNegSubjPerf-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
@@ -1155,7 +1155,7 @@
                          [:Common :Plural :Person2 "imaatan"]]
                  }
                 {:label "rendille-VNegConcessIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -1173,7 +1173,7 @@
                          [:Fem :Singular :Person3 "má ehéynanéey"]]
                  }
                 {:label "rendille-VCausNegImprtv-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -1188,7 +1188,7 @@
                          [:Plural "akarína"]]
                  }
                 {:label "rendille-VNegSubjPerfIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
@@ -1207,7 +1207,7 @@
                          [:Fem :Singular :Person3 "ehéynan"]]
                  }
                 {:label "rendille-VBaseNegSubjImperf-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1226,7 +1226,7 @@
                          [:Fem :Singular :Person3 "má furin"]]
                  }
                 {:label "rendille-VPass2AffConcess-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -1244,7 +1244,7 @@
                          [:Fem :Singular :Person3 "fúrnantéey / fúrmantéey"]]
                  }
                 {:label "rendille-VNegImprtvIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -1259,7 +1259,7 @@
                          [:Plural "ehéynan"]]
                  }
                 {:label "rendille-VPass2NegConcess-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -1277,7 +1277,7 @@
                          [:Common :Plural :Person3 "má fúrnaminéey"]]
                  }
                 {:label "rendille-VMidNegSubjImperf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1296,7 +1296,7 @@
                          [:Common :Plural :Person3 "íkarsan"]]
                  }
                 {:label "rendille-VAffOpt-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :lexeme :haaggan,
@@ -1311,7 +1311,7 @@
                          [:Masc :Singular :Person3 "á haagganeetti"]]
                  }
                 {:label "rendille-VPass1AffIndicPerf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1330,7 +1330,7 @@
                          [:Fem :Singular :Person3 "furante"]]
                  }
                 {:label "rendille-VPass2NegSubjPerf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClaspdgmLexs :Suffix,
@@ -1349,7 +1349,7 @@
                          [:Common :Singular :Person1 "má furnamin"]]
                  }
                 {:label "rendille-VCausAffSubjImperf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1368,7 +1368,7 @@
                          [:Common :Plural :Person2 "karissaan"]]
                  }
                 {:label "rendille-VAffOptIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :conjSubType :Irregular,
@@ -1384,7 +1384,7 @@
                          [:Fem :Singular :Person3 "á eheneetti / á eheetti"]]
                  }
                 {:label "rendille-VPass1AffIndicImperf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1403,7 +1403,7 @@
                          [:Masc :Singular :Person3 "furma"]]
                  }
                 {:label "rendille-VMidAffSubjImperf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1422,7 +1422,7 @@
                          [:Common :Plural :Person3 "karsataan"]]
                  }
                 {:label "rendille-VAffIndicPerf-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Stative,
@@ -1440,7 +1440,7 @@
                          [:Common :Plural :Person2 "haagganeet"]]
                  }
                 {:label "rendille-VAffConcess-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :conjClass :Stative,
                           :lexeme :haaggan,
@@ -1457,7 +1457,7 @@
                          [:Common :Singular :Person1 "haagganneéttéey"]]
                  }
                 {:label "rendille-VNegSubjPerf-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Stative,
@@ -1475,7 +1475,7 @@
                          [:Common :Plural :Person2 "íhaagganéynan"]]
                  }
                 {:label "rendille-VCausNegSubjPerf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1494,7 +1494,7 @@
                          [:Common :Plural :Person1 "íkarín"]]
                  }
                 {:label "rendille-VMidAffSubj-kar"
-                 :note "p. 49"
+                 :note "PG99p.49"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1513,7 +1513,7 @@
                          [:Common :Plural :Person3 "karsateen"]]
                  }
                 {:label "rendille-VAffIndicImperfIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1532,7 +1532,7 @@
                          [:Masc :Singular :Person3 "yahe / yehe"]]
                  }
                 {:label "rendille-VNegIndicPerf-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Stative,
@@ -1550,7 +1550,7 @@
                          [:Common :Plural :Person2 "má haagganéynan"]]
                  }
                 {:label "rendille-VPass1NegSubjPerf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1569,7 +1569,7 @@
                          [:Common :Plural :Person3 "má furmin"]]
                  }
                 {:label "rendille-VMidNegSubjPerf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1588,7 +1588,7 @@
                          [:Common :Plural :Person2 "íkarsan"]]
                  }
                 {:label "rendille-VMidAffOpt-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -1604,7 +1604,7 @@
                          [:Common :Plural :Person1 "á karsanni"]]
                  }
                 {:label "rendille-VBaseAffImprtv-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -1619,7 +1619,7 @@
                          [:Singular "fur"]]
                  }
                 {:label "rendille-VPass2NegImprtv-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass2,
@@ -1634,7 +1634,7 @@
                          [:Plural "afurnamína"]]
                  }
                 {:label "rendille-VAffSubjImperf-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
@@ -1652,7 +1652,7 @@
                          [:Common :Singular :Person2 "tamiit"]]
                  }
                 {:label "rendille-VPass2AffSubjImperf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1671,7 +1671,7 @@
                          [:Masc :Singular :Person3 "furnamo"]]
                  }
                 {:label "rendille-VNegIndicImperfIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1690,7 +1690,7 @@
                          [:Common :Singular :Person2 "mee"]]
                  }
                 {:label "rendille-VMidAffImprtv-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -1705,7 +1705,7 @@
                          [:Singular "karso"]]
                  }
                 {:label "rendille-VNegSubjImperf-haaggan"
-                 :note "Pillinger-Galboran1999 p. 45"
+                 :note "PG99p.45"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Stative,
@@ -1723,7 +1723,7 @@
                          [:Common :Singular :Person1 "íhaagganéynan"]]
                  }
                 {:label "rendille-VCausNegIndicPerf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1742,7 +1742,7 @@
                          [:Common :Singular :Person1 "má karín"]]
                  }
                 {:label "rendille-VCausNegOpt-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :S,
@@ -1758,7 +1758,7 @@
                          [:Common :Plural :Person3 "úun ičo karín"]]
                  }
                 {:label "rendille-VNegIndicPerf-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Prefix,
@@ -1776,7 +1776,7 @@
                          [:Common :Singular :Person1 "má imaatan"]]
                  }
                 {:label "rendille-VNegSubjImperf-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
@@ -1794,7 +1794,7 @@
                          [:Common :Singular :Person1 "imaatan"]]
                  }
                 {:label "rendille-VAffConcess-mi"
-                 :note "Pillinger-Galboran1999 p. 42;there are 13 basic prefing verbs in Rendille"
+                 :note "PG99p.42 :: there are 13 basic prefing verbs in Rendille"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :mi,
@@ -1811,7 +1811,7 @@
                          [:Fem :Singular :Person3 "tímiyéey"]]
                  }
                 {:label "rendille-VPass1NegImprtv-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Pass1,
@@ -1826,7 +1826,7 @@
                          [:Plural "afuramína"]]
                  }
                 {:label "rendille-VAffSubjPerfIrreg-he"
-                 :note "Pillinger-Galboran1999 p. 44"
+                 :note "PG99p.44"
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Prefix,
@@ -1845,7 +1845,7 @@
                          [:Common :Plural :Person1 "eheneet / eheet / ahanaay"]]
                  }
                 {:label "rendille-VMidNegConcess-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :T,
@@ -1863,7 +1863,7 @@
                          [:Fem :Singular :Person3 "má kársanéey"]]
                  }
                 {:label "rendille-VBaseAffIndicImperf-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1882,7 +1882,7 @@
                          [:Common :Plural :Person2 "furtaan"]]
                  }
                 {:label "rendille-VPass2AffIndicPerf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1901,7 +1901,7 @@
                          [:Common :Singular :Person2 "furnante / furmante"]]
                  }
                 {:label "rendille-VMidAffIndicImperf-kar"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Suffix,
@@ -1920,7 +1920,7 @@
                          [:Common :Singular :Person1 "karsada"]]
                  }
                 {:label "rendille-VPass2NegSubjImperf-fur"
-                 :note "Passive forms of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
+                 :note "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given."
                  :common {:vmorphClass :Finite
                           :clauseType :Subordinate,
                           :conjClass :Suffix,
@@ -1939,7 +1939,7 @@
                          [:Common :Singular :Person2 "má furnamin"]]
                  }
                 {:label "rendille-VBaseNegOpt-fur"
-                 :note ""
+                 :note "PG99p."
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix,
                           :derivedStem :Base,
@@ -1955,7 +1955,7 @@
                          [:Common :Singular :Person1 "úun an fúrin"]]
                  }
                 {:label "rendille-PPoss"
-                 :note "Pillinger-Galboran1999 p. 41"
+                 :note "PG99p.41"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Possessive}
                  :terms [[:cohesion :focus :gender :number :person :token],
@@ -1977,7 +1977,7 @@
                          [:Inclusive :Foc :Common :Plural :Person1 "keenna"]]
                  }
                 {:label "rendille-PClitic"
-                 :note "Pillinger-Galboran1999 p. 40;masc clitic normally has k - goes_to h / __ V (i.e.,is homophonous w. plural)"
+                 :note "PG99p.40 :: masc clitic normally has k - goes_to h / __ V (i.e.,is homophonous w. plural)"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Clitic}
                  :terms [[:cliticType :deixis :gender :number :token],
@@ -2001,7 +2001,7 @@
                          [:Demonstrative :Near :Fem :Singular "ta(n)"]]
                  }
                 {:label "rendille-PInd"
-                 :note "Pillinger-Galboran1999 p. 40"
+                 :note "PG99p.40"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:case :cohesion :gender :number :person :token],
