@@ -1,239 +1,334 @@
 {
   "lang": "rendille",
-  "subfamily": "Lowland East Cushitic Omo-Tana",
+  "subfamily": "cushitic east lowland omo-tana",
   "lgpref": "ren",
   "datasource": "Pillinger, Steve, and Letiwa Galboran. 1999. A Rendille dictionary: Including a grammatical outline and an English-Rendille Index. Cushitic Language Studies, vol. 14 . Köln: Köppe Verlag. abbrev. PG99",
   "datasourceNotes": "",
+  "transcription": { 
+    "Consonants": {
+      "general": "cf. transcription table",
+      "note": [
+        "'' = ''",
+        "'' = '' "
+        ]},
+    "Vowels": {
+      "inventory": "i e a o u; ii ee aa oo uu"},
+    "Prosody": {
+      "Type": "tone",
+      "Tone": "'v́' High ; 'v' Low ;  'v́v' Falling ; 'vv́' Level-High"}}, 
   "geodemoURL": "http://www.ethnologue.com/language/rel",
   "geodemoTXT": "Varieties and subdialects of Rendille are spoken in Kenya, between Lake Turkana and Mt. Marsabit.",
   "schemata": {
-    "case": [
-      "Long",
-      "Object",
-      "ObjectIndirect",
-      "Short"
-    ],
-    "clauseType": [
-      "Main",
-      "Subordinate"
-    ],
-    "cliticType": [
-      "Demonstrative",
-      "Indefinite",
-      "Interrogative",
-      "Relative"
-    ],
-    "cohesion": [
-      "Exclusive",
-      "Inclusive"
-    ],
-    "conjClaspdgmLexs": [
-      "Suffix"
-    ],
-    "conjClass": [
-      "Prefix",
-      "Stative",
-      "Suffix"
-    ],
-    "conjSubType": [
-      "Irregular"
-    ],
-    "deixis": [
-      "Far",
-      "Medial",
-      "Near"
-    ],
-    "derivedStem": [
-      "B",
-      "M1",
-      "M2",
-      "S",
-      "T"
-    ],
-    "focus": [
-      "Foc",
-      "Non_focus"
-    ],
-    "gender": [
-      "Common",
-      "Fem",
-      "Masc"
-    ],
-    "lexeme": [
-      "fur",
-      "haaggan",
-      "he",
-      "kar",
-      "mi"
-    ],
-    "number": [
-      "Plural",
-      "Singular"
-    ],
-    "person": [
-      "Person1",
-      "Person2",
-      "Person3"
-    ],
-    "polarity": [
-      "Affirmative",
-      "Negative"
-    ],
-    "pos": [
-      "Pronoun",
-      "Verb"
-    ],
-    "proClass": [
-      "Clitic",
-      "Independent",
-      "Possessive"
-    ],
-    "tam": [
-      "Concessive",
-      "Imperative",
-      "Imperfect",
-      "Optative",
-      "Perfect"
-    ]
-  },
+  "case": [
+    "Long",
+    "Object",
+    "ObjectIndirect",
+    "Short"
+  ],
+  "clauseType": [
+    "Main",
+    "Subordinate"
+  ],
+  "cliticType": [
+    "Demonstrative",
+    "Indefinite",
+    "Interrogative",
+    "Relative"
+  ],
+  "conjClaspdgmLexs": [
+    "Suffix"
+  ],
+  "conjClass": [
+    "Prefix",
+    "Stative",
+    "Suffix"
+  ],
+  "conjSubType": [
+    "Irregular"
+  ],
+  "deixis": [
+    "Far",
+    "Medial",
+    "Near"
+  ],
+  "derivedStem": [
+    "B",
+    "M1",
+    "M2",
+    "S",
+    "T"
+  ],
+  "focus": [
+    "Foc",
+    "Non_focus"
+  ],
+  "gender": [
+    "Common",
+    "Fem",
+    "Masc"
+  ],
+  "lexeme": [
+    "fur",
+    "haaggan",
+    "he",
+    "kar",
+    "mi"
+  ],
+  "number": [
+    "Plural",
+    "Singular"
+  ],
+  "person": [
+    "Person1",
+    "Person1exc",
+    "Person1inc",
+    "Person2",
+    "Person3"
+  ],
+  "polarity": [
+    "Affirmative",
+    "Negative"
+  ],
+  "pos": [
+    "Pronoun",
+    "Verb"
+  ],
+  "proClass": [
+    "Clitic",
+    "Independent",
+    "Possessive"
+  ],
+  "tam": [
+    "Concessive",
+    "Imperative",
+    "Imperfect",
+    "Optative",
+    "Perfect"
+  ]
+},
   "lexemes": {
-    "fur": {
-      "pos": "Verb",
-      "lemma": "fur-P1",
-      "gloss": "get untied",
-      "conjClass": "Suffix",
-      "derivedStem": "M1"
-    },
-    "haaggan": {
-      "pos": "Verb",
-      "lemma": "haaggan-",
-      "gloss": "be good",
-      "conjClass": "Stative"
-    },
-    "he": {
-      "pos": "Verb",
-      "lemma": "he-",
-      "gloss": "be",
-      "conjClass": "Prefix",
-      "conjSubType": "Irregular"
-    },
-    "kar": {
-      "pos": "Verb",
-      "lemma": "karča",
-      "gloss": "cook (tr)",
-      "conjClass": "Suffix",
-      "derivedStem": "Causative"
-    },
-    "mi": {
-      "pos": "Verb",
-      "lemma": "mi-",
-      "gloss": "come",
-      "conjClass": "Prefix"
-    }
+  "fur": {
+    "pos": "Verb",
+    "lemma": "fur-",
+    "gloss": "untie",
+    "conjClass": "Suffix"
   },
-  "pdgmPropOrder": ["pos", "proClass", "conjClass", "lexeme", "derivedStem", "tam", "polarity", "clausType", "conjSubType"],
+  "haaggan": {
+    "pos": "Verb",
+    "lemma": "haaggan-",
+    "gloss": "be good",
+    "conjClass": "Stative"
+  },
+  "he": {
+    "pos": "Verb",
+    "lemma": "he-",
+    "gloss": "be",
+    "conjClass": "Prefix",
+    "conjSubType": "Irregular"
+  },
+  "kar": {
+    "pos": "Verb",
+    "lemma": "kar-",
+    "gloss": "cook (intr)",
+    "conjClass": "Suffix"
+  },
+  "mi": {
+    "pos": "Verb",
+    "lemma": "mi-",
+    "gloss": "come",
+    "conjClass": "Prefix"
+  }
+},
+  "pdgmPropOrder": ["pos", "proClass", "cliticType", "case", "focus", "conjClass", "lexeme", "derivedStem", "tam", "polarity", "clauseType", "conjSubType"],
   "termclusters": [
   {
-    "label": "ren-PronounClitic",
+    "label": "ren-PronounCliticDemonstrative",
     "note": "PG99p.40 :: masc clitic normally has k - goes_to h / __ V (i.e.,is homophonous w. plural)",
     "common": {
       "pos": "Pronoun",
-      "proClass": "Clitic"
+      "proClass": "Clitic",
+      "cliticType": "Demonstrative"
     },
     "terms": [
-      ["cliticType" ,"deixis" ,"gender" ,"number" ,"token"],
-      ["Relative" ,"__" ,"Common" ,"Plural" ,"hí"],
-      ["Interrogative" ,"__" ,"Fem" ,"Singular" ,"toh"],
-      ["Demonstrative" ,"Near" ,"Common" ,"Plural" ,"ha(n)"],
-      ["Demonstrative" ,"Medial" ,"Fem" ,"Singular" ,"táas"],
-      ["Relative" ,"__" ,"Masc" ,"Singular" ,"kí ~ -í"],
-      ["Demonstrative" ,"Far" ,"Masc" ,"Singular" ,"kúus ~ -úus"],
-      ["Indefinite" ,"__" ,"Masc" ,"Singular" ,"koó ~ -oó"],
-      ["Indefinite" ,"__" ,"Common" ,"Plural" ,"hoó"],
-      ["Demonstrative" ,"Near" ,"Masc" ,"Singular" ,"ka(n) ~ -a"],
-      ["Interrogative" ,"__" ,"Common" ,"Plural" ,"hoh"],
-      ["Demonstrative" ,"Medial" ,"Common" ,"Plural" ,"háas"],
-      ["Demonstrative" ,"Far" ,"Fem" ,"Singular" ,"túus"],
-      ["Indefinite" ,"__" ,"Fem" ,"Singular" ,"toó"],
-      ["Interrogative" ,"__" ,"Masc" ,"Singular" ,"koh ~ -oh"],
-      ["Relative" ,"__" ,"Fem" ,"Singular" ,"tí"],
-      ["Demonstrative" ,"Far" ,"Common" ,"Plural" ,"húus"],
-      ["Demonstrative" ,"Medial" ,"Masc" ,"Singular" ,"káas ~ -áas"],
-      ["Demonstrative" ,"Near" ,"Fem" ,"Singular" ,"ta(n)"]
+      ["deixis" ,"number" ,"gender" ,"token"],
+      ["Near" ,"Singular" ,"Masc" ,"ka(n) ~ -a"],
+      ["Near" ,"Singular" ,"Fem" ,"ta(n)"],
+      ["Near" ,"Plural" ,"Common" ,"ha(n)"],
+      ["Medial" ,"Singular" ,"Fem" ,"táas"],
+      ["Medial" ,"Singular" ,"Masc" ,"káas ~ -áas"],
+      ["Medial" ,"Plural" ,"Common" ,"háas"],
+      ["Far" ,"Singular" ,"Masc" ,"kúus ~ -úus"],
+      ["Far" ,"Singular" ,"Fem" ,"túus"],
+      ["Far" ,"Plural" ,"Common" ,"húus"]
     ]
   },
   {
-    "label": "ren-PronounIndependent",
+    "label": "ren-PronounCliticIndefinite",
+    "note": "PG99p.40 :: masc clitic normally has k - goes_to h / __ V (i.e.,is homophonous w. plural)",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Clitic",
+      "cliticType": "Indefinite"
+    },
+    "terms": [
+      ["number" ,"gender" ,"token"],
+      ["Singular" ,"Masc" ,"koó ~ -oó"],
+      ["Singular" ,"Fem" ,"toó"],
+      ["Plural" ,"Common" ,"hoó"]
+    ]
+  },
+  {
+    "label": "ren-PronounCliticInterrogative",
+    "note": "PG99p.40 :: masc clitic normally has k - goes_to h / __ V (i.e.,is homophonous w. plural)",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Clitic",
+      "cliticType": "Interrogative"
+    },
+    "terms": [
+      ["number" ,"gender" ,"token"],
+      ["Singular" ,"Fem" ,"toh"],
+      ["Singular" ,"Masc" ,"koh ~ -oh"],
+      ["Plural" ,"Common" ,"hoh"]
+    ]
+  },
+  {
+    "label": "ren-PronounCliticRelative",
+    "note": "PG99p.40 :: masc clitic normally has k - goes_to h / __ V (i.e.,is homophonous w. plural)",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Clitic",
+      "cliticType": "Relative"
+    },
+    "terms": [
+      ["number" ,"gender" ,"token"],
+      ["Singular" ,"Masc" ,"kí ~ -í"],
+      ["Singular" ,"Fem" ,"tí"],
+      ["Plural" ,"Common" ,"hí"]
+    ]
+  },
+  {
+    "label": "ren-PronounIndependentLong",
     "note": "PG99p.40",
     "common": {
       "pos": "Pronoun",
-      "proClass": "Independent"
+      "proClass": "Independent",
+      "case": "Long"
     },
     "terms": [
-      ["case" ,"cohesion" ,"gender" ,"number" ,"person" ,"token"],
-      ["ObjectIndirect" ,"__" ,"Fem" ,"Singular" ,"Person3" ,"Common"],
-      ["Long" ,"Exclusive" ,"Common" ,"Plural" ,"Person1" ,"náh"],
-      ["ObjectIndirect" ,"Inclusive" ,"Common" ,"Plural" ,"Person1" ,"Common"],
-      ["ObjectIndirect" ,"__" ,"Masc" ,"Singular" ,"Person3" ,"Common"],
-      ["Short" ,"Exclusive" ,"Common" ,"Plural" ,"Person1" ,"Common"],
-      ["Object" ,"Inclusive" ,"Common" ,"Plural" ,"Person1" ,"inno"],
-      ["Short" ,"__" ,"Common" ,"Plural" ,"Person3" ,"Common"],
-      ["ObjectIndirect" ,"__" ,"Common" ,"Singular" ,"Person1" ,"Common"],
-      ["Short" ,"__" ,"Masc" ,"Singular" ,"Person3" ,"us"],
-      ["Object" ,"__" ,"Common" ,"Singular" ,"Person2" ,"ki-"],
-      ["Long" ,"__" ,"Masc" ,"Singular" ,"Person3" ,"usú"],
-      ["ObjectIndirect" ,"Exclusive" ,"Common" ,"Plural" ,"Person1" ,"Common"],
-      ["Short" ,"__" ,"Common" ,"Plural" ,"Person2" ,"Common"],
-      ["Object" ,"__" ,"Common" ,"Singular" ,"Person1" ,"i-"],
-      ["Long" ,"__" ,"Common" ,"Singular" ,"Person2" ,"atí"],
-      ["Long" ,"__" ,"Common" ,"Singular" ,"Person1" ,"aní"],
-      ["ObjectIndirect" ,"__" ,"Common" ,"Plural" ,"Person2" ,"Common"],
-      ["Object" ,"__" ,"Common" ,"Plural" ,"Person2" ,"atin"],
-      ["Object" ,"Exclusive" ,"Common" ,"Plural" ,"Person1" ,"nah"],
-      ["Short" ,"__" ,"Common" ,"Singular" ,"Person2" ,"at"],
-      ["Long" ,"__" ,"Common" ,"Plural" ,"Person3" ,"ičó"],
-      ["Short" ,"Inclusive" ,"Common" ,"Plural" ,"Person1" ,"Common"],
-      ["Object" ,"__" ,"Masc" ,"Singular" ,"Person3" ,"Common"],
-      ["Short" ,"__" ,"Common" ,"Singular" ,"Person1" ,"an"],
-      ["Object" ,"__" ,"Fem" ,"Singular" ,"Person3" ,"Common"],
-      ["Long" ,"__" ,"Common" ,"Plural" ,"Person2" ,"atín"],
-      ["ObjectIndirect" ,"__" ,"Common" ,"Singular" ,"Person2" ,"kí-"],
-      ["Long" ,"Inclusive" ,"Common" ,"Plural" ,"Person1" ,"innó"],
-      ["Short" ,"__" ,"Fem" ,"Singular" ,"Person3" ,"Common"],
-      ["Object" ,"__" ,"Common" ,"Plural" ,"Person3" ,"Common"],
-      ["Long" ,"__" ,"Fem" ,"Singular" ,"Person3" ,"ičé"],
-      ["ObjectIndirect" ,"__" ,"Common" ,"Plural" ,"Person3" ,"Common"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"aní"],
+      ["Singular" ,"Person2" ,"Common" ,"atí"],
+      ["Singular" ,"Person3" ,"Masc" ,"usú"],
+      ["Singular" ,"Person3" ,"Fem" ,"ičé"],
+      ["Plural" ,"Person1" ,"Common" ,"náh"],
+      ["Plural" ,"Person1" ,"Common" ,"innó"],
+      ["Plural" ,"Person2" ,"Common" ,"atín"],
+      ["Plural" ,"Person3" ,"Common" ,"ičó"]
     ]
   },
   {
-    "label": "ren-PronounPossessive",
+    "label": "ren-PronounIndependentObject",
+    "note": "PG99p.40",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Independent",
+      "case": "Object"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"i-"],
+      ["Singular" ,"Person2" ,"Common" ,"ki-"],
+      ["Singular" ,"Person3" ,"Masc" ,"__"],
+      ["Singular" ,"Person3" ,"Fem" ,"__"],
+      ["Plural" ,"Person1inc" ,"Common" ,"inno"],
+      ["Plural" ,"Person1exc" ,"Common" ,"nah"],
+      ["Plural" ,"Person2" ,"Common" ,"atin"],
+      ["Plural" ,"Person3" ,"Common" ,"__"]
+    ]
+  },
+  {
+    "label": "ren-PronounIndependentObjectIndirect",
+    "note": "PG99p.40",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Independent",
+      "case": "ObjectIndirect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"__"],
+      ["Singular" ,"Person2" ,"Common" ,"kí-"],
+      ["Singular" ,"Person3" ,"Fem" ,"__"],
+      ["Singular" ,"Person3" ,"Masc" ,"__"],
+      ["Plural" ,"Person1inc" ,"Common" ,"__"],
+      ["Plural" ,"Person1exc" ,"Common" ,"__"],
+      ["Plural" ,"Person2" ,"Common" ,"__"],
+      ["Plural" ,"Person3" ,"Common" ,"__"]
+    ]
+  },
+  {
+    "label": "ren-PronounIndependentShort",
+    "note": "PG99p.40",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Independent",
+      "case": "Short"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an"],
+      ["Singular" ,"Person2" ,"Common" ,"at"],
+      ["Singular" ,"Person3" ,"Masc" ,"us"],
+      ["Singular" ,"Person3" ,"Fem" ,"__"],
+      ["Plural" ,"Person1exc" ,"Common" ,"__"],
+      ["Plural" ,"Person1inc" ,"Common" ,"__"],
+      ["Plural" ,"Person2" ,"Common" ,"__"],
+      ["Plural" ,"Person3" ,"Common" ,"__"]
+    ]
+  },
+  {
+    "label": "ren-PronounPossessiveFoc",
     "note": "PG99p.41",
     "common": {
       "pos": "Pronoun",
-      "proClass": "Possessive"
+      "proClass": "Possessive",
+      "focus": "Foc"
     },
     "terms": [
-      ["cohesion" ,"focus" ,"gender" ,"number" ,"person" ,"token"],
-      ["__" ,"Foc" ,"Common" ,"Plural" ,"Person2" ,"kiinna"],
-      ["Exclusive" ,"Non_focus" ,"Common" ,"Plural" ,"Person1" ,"kényo"],
-      ["__" ,"Non_focus" ,"Fem" ,"Singular" ,"Person3" ,"kíče"],
-      ["__" ,"Foc" ,"Common" ,"Singular" ,"Person1" ,"kaaya"],
-      ["__" ,"Foc" ,"Masc" ,"Singular" ,"Person3" ,"kiissa"],
-      ["__" ,"Non_focus" ,"Common" ,"Plural" ,"Person2" ,"kíin"],
-      ["__" ,"Foc" ,"Fem" ,"Singular" ,"Person3" ,"kičeeda"],
-      ["__" ,"Non_focus" ,"Common" ,"Singular" ,"Person2" ,"káah"],
-      ["__" ,"Non_focus" ,"Common" ,"Plural" ,"Person3" ,"kíčo"],
-      ["__" ,"Foc" ,"Common" ,"Singular" ,"Person2" ,"kaahha"],
-      ["__" ,"Non_focus" ,"Common" ,"Singular" ,"Person1" ,"kéy"],
-      ["Inclusive" ,"Non_focus" ,"Common" ,"Plural" ,"Person1" ,"kéen"],
-      ["__" ,"Non_focus" ,"Masc" ,"Singular" ,"Person3" ,"kíis"],
-      ["__" ,"Foc" ,"Common" ,"Plural" ,"Person3" ,"kičooda"],
-      ["Exclusive" ,"Foc" ,"Common" ,"Plural" ,"Person1" ,"kaaanya"],
-      ["Inclusive" ,"Foc" ,"Common" ,"Plural" ,"Person1" ,"keenna"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kaaya"],
+      ["Singular" ,"Person2" ,"Common" ,"kaahha"],
+      ["Singular" ,"Person3" ,"Masc" ,"kiissa"],
+      ["Singular" ,"Person3" ,"Fem" ,"kičeeda"],
+      ["Plural" ,"Person1exc" ,"Common" ,"kaaanya"],
+      ["Plural" ,"Person1inc" ,"Common" ,"keenna"],
+      ["Plural" ,"Person2" ,"Common" ,"kiinna"],
+      ["Plural" ,"Person3" ,"Common" ,"kičooda"]
     ]
   },
   {
-    "label": "ren-Verb-fur-M2PerfectNegative",
+    "label": "ren-PronounPossessiveNon_focus",
+    "note": "PG99p.41",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Possessive",
+      "focus": "Non_focus"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kéy"],
+      ["Singular" ,"Person2" ,"Common" ,"káah"],
+      ["Singular" ,"Person3" ,"Fem" ,"kíče"],
+      ["Singular" ,"Person3" ,"Masc" ,"kíis"],
+      ["Plural" ,"Person1exc" ,"Common" ,"kényo"],
+      ["Plural" ,"Person1inc" ,"Common" ,"kéen"],
+      ["Plural" ,"Person2" ,"Common" ,"kíin"],
+      ["Plural" ,"Person3" ,"Common" ,"kíčo"]
+    ]
+  },
+  {
+    "label": "ren-Verb-fur-M2PerfectNegativeSubordinate",
     "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
     "common": {
       "clauseType": "Subordinate",
@@ -245,19 +340,19 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"má furnamin"],
-      ["Masc" ,"Singular" ,"Person3" ,"má furnamin"],
-      ["Common" ,"Plural" ,"Person2" ,"má furnamin"],
-      ["Common" ,"Plural" ,"Person3" ,"má furnamin"],
-      ["Common" ,"Singular" ,"Person2" ,"má furnamin"],
-      ["Fem" ,"Singular" ,"Person3" ,"má furnamin"],
-      ["Common" ,"Singular" ,"Person1" ,"má furnamin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má furnamin"],
+      ["Singular" ,"Person2" ,"Common" ,"má furnamin"],
+      ["Singular" ,"Person3" ,"Masc" ,"má furnamin"],
+      ["Singular" ,"Person3" ,"Fem" ,"má furnamin"],
+      ["Plural" ,"Person1" ,"Common" ,"má furnamin"],
+      ["Plural" ,"Person2" ,"Common" ,"má furnamin"],
+      ["Plural" ,"Person3" ,"Common" ,"má furnamin"]
     ]
   },
   {
     "label": "ren-VerbPrefix-he-ConcessiveAffirmativeIrregular",
-    "note": "PG99p.44",
+    "note": "PG99p.45",
     "common": {
       "conjClass": "Prefix",
       "conjSubType": "Irregular",
@@ -267,19 +362,19 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"eheneéttéey / eheéttéey"],
-      ["Common" ,"Plural" ,"Person2" ,"eheneéttéey / eheéttéey"],
-      ["Common" ,"Singular" ,"Person2" ,"eheneéttéey / eheéttéey"],
-      ["Common" ,"Plural" ,"Person3" ,"eheneéttéey / eheéttéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"eheneéttéey / eheéttéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"eheneéttéey / eheéttéey"],
-      ["Common" ,"Plural" ,"Person1" ,"eheneéttéey / eheéttéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"eheneéttéey / eheéttéey"],
+      ["Singular" ,"Person2" ,"Common" ,"eheneéttéey / eheéttéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"eheneéttéey / eheéttéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"eheneéttéey / eheéttéey"],
+      ["Plural" ,"Person1" ,"Common" ,"eheneéttéey / eheéttéey"],
+      ["Plural" ,"Person2" ,"Common" ,"eheneéttéey / eheéttéey"],
+      ["Plural" ,"Person3" ,"Common" ,"eheneéttéey / eheéttéey"]
     ]
   },
   {
     "label": "ren-VerbPrefix-he-ConcessiveNegativeIrregular",
-    "note": "PG99p.44",
+    "note": "PG99p.45",
     "common": {
       "conjClass": "Prefix",
       "conjSubType": "Irregular",
@@ -289,19 +384,19 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"má ehéynanéey"],
-      ["Common" ,"Plural" ,"Person2" ,"má ehéynanéey"],
-      ["Common" ,"Singular" ,"Person2" ,"má ehéynanéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"má ehéynanéey"],
-      ["Common" ,"Plural" ,"Person1" ,"má ehéynanéey"],
-      ["Common" ,"Plural" ,"Person3" ,"má ehéynanéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"má ehéynanéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má ehéynanéey"],
+      ["Singular" ,"Person2" ,"Common" ,"má ehéynanéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"má ehéynanéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"má ehéynanéey"],
+      ["Plural" ,"Person1" ,"Common" ,"má ehéynanéey"],
+      ["Plural" ,"Person2" ,"Common" ,"má ehéynanéey"],
+      ["Plural" ,"Person3" ,"Common" ,"má ehéynanéey"]
     ]
   },
   {
     "label": "ren-VerbPrefix-he-ImperativeAffirmativeIrregular",
-    "note": "PG99p.44",
+    "note": "PG99p.45",
     "common": {
       "conjClass": "Prefix",
       "conjSubType": "Irregular",
@@ -311,14 +406,14 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person2" ,"Common" ,"ahanáaw / aháaw"],
       ["Plural" ,"Person2" ,"Common" ,"ahanaáwa / ahaáwa"]
     ]
   },
   {
     "label": "ren-VerbPrefix-he-ImperativeNegativeIrregular",
-    "note": "PG99p.44",
+    "note": "PG99p.45",
     "common": {
       "conjClass": "Prefix",
       "conjSubType": "Irregular",
@@ -328,36 +423,13 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person2" ,"Common" ,"ehéynan"],
       ["Plural" ,"Person2" ,"Common" ,"ehéynan"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-he-ImperfectAffirmativeIrregular",
-    "note": "PG99p.44",
-    "common": {
-      "clauseType": "Subordinate",
-      "conjClass": "Prefix",
-      "conjSubType": "Irregular",
-      "lexeme": "he",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Imperfect"
-    },
-    "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person2" ,"tahe / tehe"],
-      ["Common" ,"Plural" ,"Person1" ,"nahe / nehe"],
-      ["Masc" ,"Singular" ,"Person3" ,"yahe / yehe"],
-      ["Common" ,"Plural" ,"Person3" ,"yahiin / yihiin"],
-      ["Common" ,"Singular" ,"Person1" ,"ahe / ehe"],
-      ["Fem" ,"Singular" ,"Person3" ,"tahe / tehe"],
-      ["Common" ,"Plural" ,"Person2" ,"tahiin / tihiin"]
-    ]
-  },
-  {
-    "label": "ren-VerbPrefix-he-ImperfectAffirmativeIrregular",
+    "label": "ren-VerbPrefix-he-ImperfectAffirmativeMainIrregular",
     "note": "PG99p.44",
     "common": {
       "clauseType": "Main",
@@ -369,41 +441,41 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"yahiin / yihiin"],
-      ["Common" ,"Plural" ,"Person1" ,"nahe / nehe"],
-      ["Common" ,"Singular" ,"Person2" ,"tahe / tehe"],
-      ["Common" ,"Plural" ,"Person2" ,"tahiin / tihiin"],
-      ["Fem" ,"Singular" ,"Person3" ,"tahe / tehe"],
-      ["Common" ,"Singular" ,"Person1" ,"ahe / ehe"],
-      ["Masc" ,"Singular" ,"Person3" ,"yahe / yehe"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ahe / ehe"],
+      ["Singular" ,"Person2" ,"Common" ,"tahe / tehe"],
+      ["Singular" ,"Person3" ,"Masc" ,"yahe / yehe"],
+      ["Singular" ,"Person3" ,"Fem" ,"tahe / tehe"],
+      ["Plural" ,"Person1" ,"Common" ,"nahe / nehe"],
+      ["Plural" ,"Person2" ,"Common" ,"tahiin / tihiin"],
+      ["Plural" ,"Person3" ,"Common" ,"yahiin / yihiin"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-he-ImperfectNegativeIrregular",
+    "label": "ren-VerbPrefix-he-ImperfectAffirmativeSubordinateIrregular",
     "note": "PG99p.44",
     "common": {
       "clauseType": "Subordinate",
       "conjClass": "Prefix",
       "conjSubType": "Irregular",
       "lexeme": "he",
-      "polarity": "Negative",
+      "polarity": "Affirmative",
       "pos": "Verb",
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person2" ,"ehéynan"],
-      ["Fem" ,"Singular" ,"Person3" ,"ehéynan"],
-      ["Common" ,"Plural" ,"Person1" ,"ehéynan"],
-      ["Common" ,"Plural" ,"Person3" ,"ehéynan"],
-      ["Common" ,"Plural" ,"Person2" ,"ehéynan"],
-      ["Common" ,"Singular" ,"Person1" ,"ehéynan"],
-      ["Masc" ,"Singular" ,"Person3" ,"ehéynan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ahe / ehe"],
+      ["Singular" ,"Person2" ,"Common" ,"tahe / tehe"],
+      ["Singular" ,"Person3" ,"Masc" ,"yahe / yehe"],
+      ["Singular" ,"Person3" ,"Fem" ,"tahe / tehe"],
+      ["Plural" ,"Person1" ,"Common" ,"nahe / nehe"],
+      ["Plural" ,"Person2" ,"Common" ,"tahiin / tihiin"],
+      ["Plural" ,"Person3" ,"Common" ,"yahiin / yihiin"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-he-ImperfectNegativeIrregular",
+    "label": "ren-VerbPrefix-he-ImperfectNegativeMainIrregular",
     "note": "PG99p.44",
     "common": {
       "clauseType": "Main",
@@ -415,14 +487,37 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person2" ,"mee"],
-      ["Common" ,"Plural" ,"Person3" ,"mee"],
-      ["Common" ,"Singular" ,"Person1" ,"mee"],
-      ["Masc" ,"Singular" ,"Person3" ,"mee"],
-      ["Fem" ,"Singular" ,"Person3" ,"mee"],
-      ["Common" ,"Plural" ,"Person1" ,"mee"],
-      ["Common" ,"Singular" ,"Person2" ,"mee"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"mee"],
+      ["Singular" ,"Person2" ,"Common" ,"mee"],
+      ["Singular" ,"Person3" ,"Masc" ,"mee"],
+      ["Singular" ,"Person3" ,"Fem" ,"mee"],
+      ["Plural" ,"Person1" ,"Common" ,"mee"],
+      ["Plural" ,"Person2" ,"Common" ,"mee"],
+      ["Plural" ,"Person3" ,"Common" ,"mee"]
+    ]
+  },
+  {
+    "label": "ren-VerbPrefix-he-ImperfectNegativeSubordinateIrregular",
+    "note": "PG99p.44",
+    "common": {
+      "clauseType": "Subordinate",
+      "conjClass": "Prefix",
+      "conjSubType": "Irregular",
+      "lexeme": "he",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ehéynan"],
+      ["Singular" ,"Person2" ,"Common" ,"ehéynan"],
+      ["Singular" ,"Person3" ,"Masc" ,"ehéynan"],
+      ["Singular" ,"Person3" ,"Fem" ,"ehéynan"],
+      ["Plural" ,"Person1" ,"Common" ,"ehéynan"],
+      ["Plural" ,"Person2" ,"Common" ,"ehéynan"],
+      ["Plural" ,"Person3" ,"Common" ,"ehéynan"]
     ]
   },
   {
@@ -437,12 +532,12 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"á eheneetti / á eheetti"],
-      ["Common" ,"Plural" ,"Person1" ,"á eheneetti / á eheetti"],
-      ["Masc" ,"Singular" ,"Person3" ,"á eheneetti / á eheetti"],
-      ["Common" ,"Plural" ,"Person3" ,"á eheneetti / á eheetti"],
-      ["Fem" ,"Singular" ,"Person3" ,"á eheneetti / á eheetti"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á eheneetti / á eheetti"],
+      ["Singular" ,"Person3" ,"Masc" ,"á eheneetti / á eheetti"],
+      ["Singular" ,"Person3" ,"Fem" ,"á eheneetti / á eheetti"],
+      ["Plural" ,"Person1" ,"Common" ,"á eheneetti / á eheetti"],
+      ["Plural" ,"Person3" ,"Common" ,"á eheneetti / á eheetti"]
     ]
   },
   {
@@ -457,16 +552,15 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"á ehéynan"],
-      ["Fem" ,"Singular" ,"Person3" ,"á ehéynan"],
-      ["Common" ,"Plural" ,"Person1" ,"á ehéynan"],
-      ["Common" ,"Plural" ,"Person3" ,"á ehéynan"],
-      ["Masc" ,"Singular" ,"Person3" ,"á ehéynan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á ehéynan"],
+      ["Singular" ,"Person3" ,"Masc" ,"á ehéynan"],
+      ["Singular" ,"Person3" ,"Fem" ,"á vehéynan"],
+      ["Plural" ,"Person1" ,"Common" ,"á ehéynan"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-he-PerfectAffirmativeIrregular",
+    "label": "ren-VerbPrefix-he-PerfectAffirmativeMainIrregular",
     "note": "PG99p.44",
     "common": {
       "clauseType": "Main",
@@ -478,18 +572,18 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"eheneet / eheet / ahanaay"],
-      ["Common" ,"Singular" ,"Person2" ,"eheneet / eheet / ahanaay"],
-      ["Common" ,"Plural" ,"Person1" ,"eheneet / eheet / ahanaay"],
-      ["Common" ,"Plural" ,"Person2" ,"eheneet / eheet / ahanaay"],
-      ["Common" ,"Plural" ,"Person3" ,"eheneet / eheet / ahanaay"],
-      ["Fem" ,"Singular" ,"Person3" ,"eheneet / eheet / ahanaay"],
-      ["Masc" ,"Singular" ,"Person3" ,"eheneet / eheet / ahanaay"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"eheneet / eheet / ahanaay"],
+      ["Singular" ,"Person2" ,"Common" ,"eheneet / eheet / ahanaay"],
+      ["Singular" ,"Person3" ,"Masc" ,"eheneet / eheet / ahanaay"],
+      ["Singular" ,"Person3" ,"Fem" ,"eheneet / eheet / ahanaay"],
+      ["Plural" ,"Person1" ,"Common" ,"eheneet / eheet / ahanaay"],
+      ["Plural" ,"Person2" ,"Common" ,"eheneet / eheet / ahanaay"],
+      ["Plural" ,"Person3" ,"Common" ,"eheneet / eheet / ahanaay"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-he-PerfectAffirmativeIrregular",
+    "label": "ren-VerbPrefix-he-PerfectAffirmativeSubordinateIrregular",
     "note": "PG99p.44",
     "common": {
       "clauseType": "Subordinate",
@@ -501,18 +595,18 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"eheneet / eheet / ahanaay"],
-      ["Common" ,"Plural" ,"Person2" ,"eheneet / eheet / ahanaay"],
-      ["Common" ,"Plural" ,"Person3" ,"eheneet / eheet / ahanaay"],
-      ["Common" ,"Singular" ,"Person1" ,"eheneet / eheet / ahanaay"],
-      ["Fem" ,"Singular" ,"Person3" ,"eheneet / eheet / ahanaay"],
-      ["Common" ,"Singular" ,"Person2" ,"eheneet / eheet / ahanaay"],
-      ["Common" ,"Plural" ,"Person1" ,"eheneet / eheet / ahanaay"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"eheneet / eheet / ahanaay"],
+      ["Singular" ,"Person2" ,"Common" ,"eheneet / eheet / ahanaay"],
+      ["Singular" ,"Person3" ,"Masc" ,"eheneet / eheet / ahanaay"],
+      ["Singular" ,"Person3" ,"Fem" ,"eheneet / eheet / ahanaay"],
+      ["Plural" ,"Person1" ,"Common" ,"eheneet / eheet / ahanaay"],
+      ["Plural" ,"Person2" ,"Common" ,"eheneet / eheet / ahanaay"],
+      ["Plural" ,"Person3" ,"Common" ,"eheneet / eheet / ahanaay"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-he-PerfectNegativeIrregular",
+    "label": "ren-VerbPrefix-he-PerfectNegativeMainIrregular",
     "note": "PG99p.44",
     "common": {
       "clauseType": "Main",
@@ -524,18 +618,18 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"má ehéynan"],
-      ["Masc" ,"Singular" ,"Person3" ,"má ehéynan"],
-      ["Common" ,"Singular" ,"Person1" ,"má ehéynan"],
-      ["Common" ,"Singular" ,"Person2" ,"má ehéynan"],
-      ["Common" ,"Plural" ,"Person3" ,"má ehéynan"],
-      ["Fem" ,"Singular" ,"Person3" ,"má ehéynan"],
-      ["Common" ,"Plural" ,"Person2" ,"má ehéynan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má ehéynan"],
+      ["Singular" ,"Person2" ,"Common" ,"má ehéynan"],
+      ["Singular" ,"Person3" ,"Masc" ,"má ehéynan"],
+      ["Singular" ,"Person3" ,"Fem" ,"má ehéynan"],
+      ["Plural" ,"Person1" ,"Common" ,"má ehéynan"],
+      ["Plural" ,"Person2" ,"Common" ,"má ehéynan"],
+      ["Plural" ,"Person3" ,"Common" ,"má ehéynan"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-he-PerfectNegativeIrregular",
+    "label": "ren-VerbPrefix-he-PerfectNegativeSubordinateIrregular",
     "note": "PG99p.44",
     "common": {
       "clauseType": "Subordinate",
@@ -547,14 +641,14 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"ehéynan"],
-      ["Common" ,"Plural" ,"Person2" ,"ehéynan"],
-      ["Masc" ,"Singular" ,"Person3" ,"ehéynan"],
-      ["Common" ,"Plural" ,"Person1" ,"ehéynan"],
-      ["Common" ,"Plural" ,"Person3" ,"ehéynan"],
-      ["Common" ,"Singular" ,"Person2" ,"ehéynan"],
-      ["Fem" ,"Singular" ,"Person3" ,"ehéynan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ehéynan"],
+      ["Singular" ,"Person2" ,"Common" ,"ehéynan"],
+      ["Singular" ,"Person3" ,"Masc" ,"ehéynan"],
+      ["Singular" ,"Person3" ,"Fem" ,"ehéynan"],
+      ["Plural" ,"Person1" ,"Common" ,"ehéynan"],
+      ["Plural" ,"Person2" ,"Common" ,"ehéynan"],
+      ["Plural" ,"Person3" ,"Common" ,"ehéynan"]
     ]
   },
   {
@@ -568,14 +662,14 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"yímiyéey"],
-      ["Common" ,"Plural" ,"Person2" ,"tímaateenéey"],
-      ["Common" ,"Singular" ,"Person2" ,"tímiyéey"],
-      ["Common" ,"Plural" ,"Person3" ,"yímaateenéey"],
-      ["Common" ,"Singular" ,"Person1" ,"ímiyéey"],
-      ["Common" ,"Plural" ,"Person1" ,"nímiyéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"tímiyéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ímiyéey"],
+      ["Singular" ,"Person2" ,"Common" ,"tímiyéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"yímiyéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"tímiyéey"],
+      ["Plural" ,"Person1" ,"Common" ,"nímiyéey"],
+      ["Plural" ,"Person2" ,"Common" ,"tímaateenéey"],
+      ["Plural" ,"Person3" ,"Common" ,"yímaateenéey"]
     ]
   },
   {
@@ -589,14 +683,14 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"má imaatanéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"má imaatanéey"],
-      ["Common" ,"Plural" ,"Person1" ,"má imaatanéey"],
-      ["Common" ,"Plural" ,"Person3" ,"má imaatanéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"má imaatanéey"],
-      ["Common" ,"Plural" ,"Person2" ,"má imaatanéey"],
-      ["Common" ,"Singular" ,"Person2" ,"má imaatanéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má imaatanéey"],
+      ["Singular" ,"Person2" ,"Common" ,"má imaatanéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"má imaatanéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"má imaatanéey"],
+      ["Plural" ,"Person1" ,"Common" ,"má imaatanéey"],
+      ["Plural" ,"Person2" ,"Common" ,"má imaatanéey"],
+      ["Plural" ,"Person3" ,"Common" ,"má imaatanéey"]
     ]
   },
   {
@@ -610,7 +704,7 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person2" ,"Common" ,"amíit"],
       ["Plural" ,"Person2" ,"Common" ,"amiíta"]
     ]
@@ -626,13 +720,13 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person2" ,"Common" ,"iimaátan"],
       ["Plural" ,"Person2" ,"Common" ,"iimaatána"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-mi-ImperfectAffirmative",
+    "label": "ren-VerbPrefix-mi-ImperfectAffirmativeMain",
     "note": "PG99p.42 :: there are 13 basic prefing verbs in Rendille",
     "common": {
       "clauseType": "Main",
@@ -643,18 +737,18 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Fem" ,"Singular" ,"Person3" ,"tamiit"],
-      ["Masc" ,"Singular" ,"Person3" ,"yamiit"],
-      ["Common" ,"Singular" ,"Person2" ,"tamiit"],
-      ["Common" ,"Singular" ,"Person1" ,"amiit"],
-      ["Common" ,"Plural" ,"Person1" ,"namiit"],
-      ["Common" ,"Plural" ,"Person2" ,"tamiitiin"],
-      ["Common" ,"Plural" ,"Person3" ,"yamiitiin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"amiit"],
+      ["Singular" ,"Person2" ,"Common" ,"tamiit"],
+      ["Singular" ,"Person3" ,"Masc" ,"yamiit"],
+      ["Singular" ,"Person3" ,"Fem" ,"tamiit"],
+      ["Plural" ,"Person1" ,"Common" ,"namiit"],
+      ["Plural" ,"Person2" ,"Common" ,"tamiitiin"],
+      ["Plural" ,"Person3" ,"Common" ,"yamiitiin"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-mi-ImperfectAffirmative",
+    "label": "ren-VerbPrefix-mi-ImperfectAffirmativeSubordinate",
     "note": "PG99p.42 :: there are 13 basic prefing verbs in Rendille",
     "common": {
       "clauseType": "Subordinate",
@@ -665,18 +759,18 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"amiit"],
-      ["Common" ,"Plural" ,"Person1" ,"namiit"],
-      ["Common" ,"Plural" ,"Person2" ,"tamiitiin"],
-      ["Masc" ,"Singular" ,"Person3" ,"yamiit"],
-      ["Fem" ,"Singular" ,"Person3" ,"tamiit"],
-      ["Common" ,"Plural" ,"Person3" ,"yamiitiin"],
-      ["Common" ,"Singular" ,"Person2" ,"tamiit"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"amiit"],
+      ["Singular" ,"Person2" ,"Common" ,"tamiit"],
+      ["Singular" ,"Person3" ,"Masc" ,"yamiit"],
+      ["Singular" ,"Person3" ,"Fem" ,"tamiit"],
+      ["Plural" ,"Person1" ,"Common" ,"namiit"],
+      ["Plural" ,"Person2" ,"Common" ,"tamiitiin"],
+      ["Plural" ,"Person3" ,"Common" ,"yamiitiin"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-mi-ImperfectNegative",
+    "label": "ren-VerbPrefix-mi-ImperfectNegativeSubordinate",
     "note": "PG99p.42 :: there are 13 basic prefing verbs in Rendille",
     "common": {
       "clauseType": "Subordinate",
@@ -687,14 +781,14 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person2" ,"imaatan"],
-      ["Common" ,"Plural" ,"Person1" ,"imaatan"],
-      ["Common" ,"Singular" ,"Person2" ,"imaatan"],
-      ["Masc" ,"Singular" ,"Person3" ,"imaatan"],
-      ["Fem" ,"Singular" ,"Person3" ,"imaatan"],
-      ["Common" ,"Plural" ,"Person3" ,"imaatan"],
-      ["Common" ,"Singular" ,"Person1" ,"imaatan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"imaatan"],
+      ["Singular" ,"Person2" ,"Common" ,"imaatan"],
+      ["Singular" ,"Person3" ,"Masc" ,"imaatan"],
+      ["Singular" ,"Person3" ,"Fem" ,"imaatan"],
+      ["Plural" ,"Person1" ,"Common" ,"imaatan"],
+      ["Plural" ,"Person2" ,"Common" ,"imaatan"],
+      ["Plural" ,"Person3" ,"Common" ,"imaatan"]
     ]
   },
   {
@@ -708,12 +802,12 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Fem" ,"Singular" ,"Person3" ,"á tímaate"],
-      ["Common" ,"Plural" ,"Person3" ,"á yímaateen"],
-      ["Common" ,"Singular" ,"Person1" ,"á ímaate"],
-      ["Common" ,"Plural" ,"Person1" ,"á nímaate"],
-      ["Masc" ,"Singular" ,"Person3" ,"á yímaat"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á ímaate"],
+      ["Singular" ,"Person3" ,"Masc" ,"á yímaat"],
+      ["Singular" ,"Person3" ,"Fem" ,"á tímaate"],
+      ["Plural" ,"Person1" ,"Common" ,"á nímaate"],
+      ["Plural" ,"Person3" ,"Common" ,"á yímaateen"]
     ]
   },
   {
@@ -727,38 +821,16 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"úun nah imaatan"],
-      ["Common" ,"Plural" ,"Person3" ,"úun ičo imaatan"],
-      ["Masc" ,"Singular" ,"Person3" ,"úun iče imaatan"],
-      ["Common" ,"Singular" ,"Person1" ,"úun an imaatan"],
-      ["Fem" ,"Singular" ,"Person3" ,"úun (us) imaatan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"úun an imaatan"],
+      ["Singular" ,"Person3" ,"Masc" ,"úun iče imaatan"],
+      ["Singular" ,"Person3" ,"Fem" ,"úun (us) imaatan"],
+      ["Plural" ,"Person1" ,"Common" ,"úun nah imaatan"],
+      ["Plural" ,"Person3" ,"Common" ,"úun ičo imaatan"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-mi-PerfectAffirmative",
-    "note": "PG99p.42 :: there are 13 basic prefing verbs in Rendille",
-    "common": {
-      "clauseType": "Subordinate",
-      "conjClass": "Prefix",
-      "lexeme": "mi",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Perfect"
-    },
-    "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"yimiy"],
-      ["Common" ,"Plural" ,"Person3" ,"yimaateen"],
-      ["Common" ,"Plural" ,"Person1" ,"nimiy"],
-      ["Common" ,"Singular" ,"Person2" ,"timiy"],
-      ["Common" ,"Plural" ,"Person2" ,"timaateen"],
-      ["Fem" ,"Singular" ,"Person3" ,"timiy"],
-      ["Common" ,"Singular" ,"Person1" ,"imiy"]
-    ]
-  },
-  {
-    "label": "ren-VerbPrefix-mi-PerfectAffirmative",
+    "label": "ren-VerbPrefix-mi-PerfectAffirmativeMain",
     "note": "PG99p.42 :: there are 13 basic prefing verbs in Rendille",
     "common": {
       "clauseType": "Main",
@@ -769,40 +841,40 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Fem" ,"Singular" ,"Person3" ,"timiy"],
-      ["Common" ,"Plural" ,"Person3" ,"yimaateen"],
-      ["Common" ,"Singular" ,"Person2" ,"timiy"],
-      ["Masc" ,"Singular" ,"Person3" ,"yimiy"],
-      ["Common" ,"Singular" ,"Person1" ,"imiy"],
-      ["Common" ,"Plural" ,"Person2" ,"timaateen"],
-      ["Common" ,"Plural" ,"Person1" ,"nimiy"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"imiy"],
+      ["Singular" ,"Person2" ,"Common" ,"timiy"],
+      ["Singular" ,"Person3" ,"Masc" ,"yimiy"],
+      ["Singular" ,"Person3" ,"Fem" ,"timiy"],
+      ["Plural" ,"Person1" ,"Common" ,"nimiy"],
+      ["Plural" ,"Person2" ,"Common" ,"timaateen"],
+      ["Plural" ,"Person3" ,"Common" ,"yimaateen"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-mi-PerfectNegative",
+    "label": "ren-VerbPrefix-mi-PerfectAffirmativeSubordinate",
     "note": "PG99p.42 :: there are 13 basic prefing verbs in Rendille",
     "common": {
       "clauseType": "Subordinate",
       "conjClass": "Prefix",
       "lexeme": "mi",
-      "polarity": "Negative",
+      "polarity": "Affirmative",
       "pos": "Verb",
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Fem" ,"Singular" ,"Person3" ,"imaatan"],
-      ["Masc" ,"Singular" ,"Person3" ,"imaatan"],
-      ["Common" ,"Plural" ,"Person1" ,"imaatan"],
-      ["Common" ,"Singular" ,"Person2" ,"imaatan"],
-      ["Common" ,"Plural" ,"Person3" ,"imaatan"],
-      ["Common" ,"Singular" ,"Person1" ,"imaatan"],
-      ["Common" ,"Plural" ,"Person2" ,"imaatan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"imiy"],
+      ["Singular" ,"Person2" ,"Common" ,"timiy"],
+      ["Singular" ,"Person3" ,"Masc" ,"yimiy"],
+      ["Singular" ,"Person3" ,"Fem" ,"timiy"],
+      ["Plural" ,"Person1" ,"Common" ,"nimiy"],
+      ["Plural" ,"Person2" ,"Common" ,"timaateen"],
+      ["Plural" ,"Person3" ,"Common" ,"yimaateen"]
     ]
   },
   {
-    "label": "ren-VerbPrefix-mi-PerfectNegative",
+    "label": "ren-VerbPrefix-mi-PerfectNegativeMain",
     "note": "PG99p.42 :: there are 13 basic prefing verbs in Rendille",
     "common": {
       "clauseType": "Main",
@@ -813,14 +885,36 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"má imaatan"],
-      ["Common" ,"Plural" ,"Person3" ,"má imaatan"],
-      ["Common" ,"Plural" ,"Person2" ,"má imaatan"],
-      ["Masc" ,"Singular" ,"Person3" ,"má imaatan"],
-      ["Common" ,"Singular" ,"Person2" ,"má imaatan"],
-      ["Fem" ,"Singular" ,"Person3" ,"má imaatan"],
-      ["Common" ,"Singular" ,"Person1" ,"má imaatan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má imaatan"],
+      ["Singular" ,"Person2" ,"Common" ,"má imaatan"],
+      ["Singular" ,"Person3" ,"Masc" ,"má imaatan"],
+      ["Singular" ,"Person3" ,"Fem" ,"má imaatan"],
+      ["Plural" ,"Person1" ,"Common" ,"má imaatan"],
+      ["Plural" ,"Person2" ,"Common" ,"má imaatan"],
+      ["Plural" ,"Person3" ,"Common" ,"má imaatan"]
+    ]
+  },
+  {
+    "label": "ren-VerbPrefix-mi-PerfectNegativeSubordinate",
+    "note": "PG99p.42 :: there are 13 basic prefing verbs in Rendille",
+    "common": {
+      "clauseType": "Subordinate",
+      "conjClass": "Prefix",
+      "lexeme": "mi",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"imaatan"],
+      ["Singular" ,"Person2" ,"Common" ,"imaatan"],
+      ["Singular" ,"Person3" ,"Masc" ,"imaatan"],
+      ["Singular" ,"Person3" ,"Fem" ,"imaatan"],
+      ["Plural" ,"Person1" ,"Common" ,"imaatan"],
+      ["Plural" ,"Person2" ,"Common" ,"imaatan"],
+      ["Plural" ,"Person3" ,"Common" ,"imaatan"]
     ]
   },
   {
@@ -834,14 +928,14 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person2" ,"haagganneéttéey"],
-      ["Common" ,"Singular" ,"Person2" ,"haagganneéttéey"],
-      ["Common" ,"Plural" ,"Person3" ,"haagganneéttéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"haagganneéttéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"haagganneéttéey"],
-      ["Common" ,"Plural" ,"Person1" ,"haagganneéttéey"],
-      ["Common" ,"Singular" ,"Person1" ,"haagganneéttéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"haagganneéttéey"],
+      ["Singular" ,"Person2" ,"Common" ,"haagganneéttéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"haagganneéttéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"haagganneéttéey"],
+      ["Plural" ,"Person1" ,"Common" ,"haagganneéttéey"],
+      ["Plural" ,"Person2" ,"Common" ,"haagganneéttéey"],
+      ["Plural" ,"Person3" ,"Common" ,"haagganneéttéey"]
     ]
   },
   {
@@ -855,14 +949,14 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"má haagganéynanéey"],
-      ["Common" ,"Singular" ,"Person2" ,"má haagganéynanéey"],
-      ["Common" ,"Singular" ,"Person1" ,"má haagganéynanéey"],
-      ["Common" ,"Plural" ,"Person1" ,"má haagganéynanéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"má haagganéynanéey"],
-      ["Common" ,"Plural" ,"Person2" ,"má haagganéynanéey"],
-      ["Common" ,"Plural" ,"Person3" ,"má haagganéynanéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má haagganéynanéey"],
+      ["Singular" ,"Person2" ,"Common" ,"má haagganéynanéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"má haagganéynanéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"má haagganéynanéey"],
+      ["Plural" ,"Person1" ,"Common" ,"má haagganéynanéey"],
+      ["Plural" ,"Person2" ,"Common" ,"má haagganéynanéey"],
+      ["Plural" ,"Person3" ,"Common" ,"má haagganéynanéey"]
     ]
   },
   {
@@ -876,7 +970,7 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Plural" ,"Person2" ,"Common" ,"haaggánahanaáwa / -ahaáwa"],
       ["Singular" ,"Person2" ,"Common" ,"haaggánahanáaw / -aháaw"]
     ]
@@ -892,35 +986,13 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Plural" ,"Person2" ,"Common" ,"haaggán ehéynan"],
       ["Singular" ,"Person2" ,"Common" ,"haaggán ehéynan"]
     ]
   },
   {
-    "label": "ren-VerbStative-haaggan-ImperfectAffirmative",
-    "note": "PG99p.45",
-    "common": {
-      "clauseType": "Subordinate",
-      "conjClass": "Stative",
-      "lexeme": "haaggan",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Imperfect"
-    },
-    "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"haaggánahe / -ehe"],
-      ["Masc" ,"Singular" ,"Person3" ,"haaggányahe / -yehe"],
-      ["Fem" ,"Singular" ,"Person3" ,"haaggántahe / -tehe"],
-      ["Common" ,"Singular" ,"Person2" ,"haaggántahe / -tehe"],
-      ["Common" ,"Plural" ,"Person2" ,"haaggántahiin / -tihiin"],
-      ["Common" ,"Plural" ,"Person1" ,"haaggánnahe / -nehe"],
-      ["Common" ,"Plural" ,"Person3" ,"haaggányahiin / -yihiin"]
-    ]
-  },
-  {
-    "label": "ren-VerbStative-haaggan-ImperfectAffirmative",
+    "label": "ren-VerbStative-haaggan-ImperfectAffirmativeMain",
     "note": "PG99p.45",
     "common": {
       "clauseType": "Main",
@@ -931,18 +1003,40 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"haaggányahiin / -yihiin"],
-      ["Fem" ,"Singular" ,"Person3" ,"haaggántahe / -tehe"],
-      ["Common" ,"Singular" ,"Person2" ,"haaggántahe / -tehe"],
-      ["Common" ,"Plural" ,"Person1" ,"haaggánnahe / -nehe"],
-      ["Masc" ,"Singular" ,"Person3" ,"haaggányahe / -yehe"],
-      ["Common" ,"Singular" ,"Person1" ,"haaggánahe / -ehe"],
-      ["Common" ,"Plural" ,"Person2" ,"haaggántahiin / -tihiin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"haaggánahe / -ehe"],
+      ["Singular" ,"Person2" ,"Common" ,"haaggántahe / -tehe"],
+      ["Singular" ,"Person3" ,"Masc" ,"haaggányahe / -yehe"],
+      ["Singular" ,"Person3" ,"Fem" ,"haaggántahe / -tehe"],
+      ["Plural" ,"Person1" ,"Common" ,"haaggánnahe / -nehe"],
+      ["Plural" ,"Person2" ,"Common" ,"haaggántahiin / -tihiin"],
+      ["Plural" ,"Person3" ,"Common" ,"haaggányahiin / -yihiin"]
     ]
   },
   {
-    "label": "ren-VerbStative-haaggan-ImperfectNegative",
+    "label": "ren-VerbStative-haaggan-ImperfectAffirmativeSubordinate",
+    "note": "PG99p.45",
+    "common": {
+      "clauseType": "Subordinate",
+      "conjClass": "Stative",
+      "lexeme": "haaggan",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"haaggánahe / -ehe"],
+      ["Singular" ,"Person2" ,"Common" ,"haaggántahe / -tehe"],
+      ["Singular" ,"Person3" ,"Masc" ,"haaggányahe / -yehe"],
+      ["Singular" ,"Person3" ,"Fem" ,"haaggántahe / -tehe"],
+      ["Plural" ,"Person1" ,"Common" ,"haaggánnahe / -nehe"],
+      ["Plural" ,"Person2" ,"Common" ,"haaggántahiin / -tihiin"],
+      ["Plural" ,"Person3" ,"Common" ,"haaggányahiin / -yihiin"]
+    ]
+  },
+  {
+    "label": "ren-VerbStative-haaggan-ImperfectNegativeMain",
     "note": "PG99p.45",
     "common": {
       "clauseType": "Main",
@@ -953,18 +1047,18 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"má haaggán"],
-      ["Common" ,"Plural" ,"Person1" ,"má haaggán"],
-      ["Common" ,"Singular" ,"Person2" ,"má haaggán"],
-      ["Common" ,"Plural" ,"Person3" ,"má haaggán"],
-      ["Common" ,"Plural" ,"Person2" ,"má haaggán"],
-      ["Common" ,"Singular" ,"Person1" ,"má haaggán"],
-      ["Fem" ,"Singular" ,"Person3" ,"má haaggán"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má haaggán"],
+      ["Singular" ,"Person2" ,"Common" ,"má haaggán"],
+      ["Singular" ,"Person3" ,"Masc" ,"má haaggán"],
+      ["Singular" ,"Person3" ,"Fem" ,"má haaggán"],
+      ["Plural" ,"Person1" ,"Common" ,"má haaggán"],
+      ["Plural" ,"Person2" ,"Common" ,"má haaggán"],
+      ["Plural" ,"Person3" ,"Common" ,"má haaggán"]
     ]
   },
   {
-    "label": "ren-VerbStative-haaggan-ImperfectNegative",
+    "label": "ren-VerbStative-haaggan-ImperfectNegativeSubordinate",
     "note": "PG99p.45",
     "common": {
       "clauseType": "Subordinate",
@@ -975,14 +1069,14 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person2" ,"íhaagganéynan"],
-      ["Common" ,"Plural" ,"Person2" ,"íhaagganéynan"],
-      ["Masc" ,"Singular" ,"Person3" ,"íhaagganéynan"],
-      ["Common" ,"Plural" ,"Person3" ,"íhaagganéynan"],
-      ["Fem" ,"Singular" ,"Person3" ,"íhaagganéynan"],
-      ["Common" ,"Plural" ,"Person1" ,"íhaagganéynan"],
-      ["Common" ,"Singular" ,"Person1" ,"íhaagganéynan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"íhaagganéynan"],
+      ["Singular" ,"Person2" ,"Common" ,"íhaagganéynan"],
+      ["Singular" ,"Person3" ,"Masc" ,"íhaagganéynan"],
+      ["Singular" ,"Person3" ,"Fem" ,"íhaagganéynan"],
+      ["Plural" ,"Person1" ,"Common" ,"íhaagganéynan"],
+      ["Plural" ,"Person2" ,"Common" ,"íhaagganéynan"],
+      ["Plural" ,"Person3" ,"Common" ,"íhaagganéynan"]
     ]
   },
   {
@@ -996,12 +1090,12 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"á haagganeetti"],
-      ["Common" ,"Plural" ,"Person3" ,"á haagganeetti"],
-      ["Fem" ,"Singular" ,"Person3" ,"á haagganeetti"],
-      ["Common" ,"Singular" ,"Person1" ,"á haagganeetti"],
-      ["Masc" ,"Singular" ,"Person3" ,"á haagganeetti"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á haagganeetti"],
+      ["Singular" ,"Person3" ,"Masc" ,"á haagganeetti"],
+      ["Singular" ,"Person3" ,"Fem" ,"á haagganeetti"],
+      ["Plural" ,"Person1" ,"Common" ,"á haagganeetti"],
+      ["Plural" ,"Person3" ,"Common" ,"á haagganeetti"]
     ]
   },
   {
@@ -1015,38 +1109,16 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"úun ičo haagganéynan"],
-      ["Masc" ,"Singular" ,"Person3" ,"úun iče haagganéynan"],
-      ["Common" ,"Singular" ,"Person1" ,"úun an haagganéynan"],
-      ["Fem" ,"Singular" ,"Person3" ,"úun (us) haagganéynan"],
-      ["Common" ,"Plural" ,"Person1" ,"úun nah haagganéynan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"úun an haagganéynan"],
+      ["Singular" ,"Person3" ,"Masc" ,"úun iče haagganéynan"],
+      ["Singular" ,"Person3" ,"Fem" ,"úun (us) haagganéynan"],
+      ["Plural" ,"Person1" ,"Common" ,"úun nah haagganéynan"],
+      ["Plural" ,"Person3" ,"Common" ,"úun ičo haagganéynan"]
     ]
   },
   {
-    "label": "ren-VerbStative-haaggan-PerfectAffirmative",
-    "note": "PG99p.45",
-    "common": {
-      "clauseType": "Subordinate",
-      "conjClass": "Stative",
-      "lexeme": "haaggan",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Perfect"
-    },
-    "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"haagganeet"],
-      ["Fem" ,"Singular" ,"Person3" ,"haagganeet"],
-      ["Common" ,"Singular" ,"Person1" ,"haagganeet"],
-      ["Common" ,"Plural" ,"Person3" ,"haagganeet"],
-      ["Common" ,"Plural" ,"Person2" ,"haagganeet"],
-      ["Common" ,"Plural" ,"Person1" ,"haagganeet"],
-      ["Common" ,"Singular" ,"Person2" ,"haagganeet"]
-    ]
-  },
-  {
-    "label": "ren-VerbStative-haaggan-PerfectAffirmative",
+    "label": "ren-VerbStative-haaggan-PerfectAffirmativeMain",
     "note": "PG99p.45",
     "common": {
       "clauseType": "Main",
@@ -1057,40 +1129,40 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"haagganeet"],
-      ["Common" ,"Singular" ,"Person1" ,"haagganeet"],
-      ["Common" ,"Plural" ,"Person1" ,"haagganeet"],
-      ["Common" ,"Singular" ,"Person2" ,"haagganeet"],
-      ["Common" ,"Plural" ,"Person3" ,"haagganeet"],
-      ["Fem" ,"Singular" ,"Person3" ,"haagganeet"],
-      ["Common" ,"Plural" ,"Person2" ,"haagganeet"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"haagganeet"],
+      ["Singular" ,"Person2" ,"Common" ,"haagganeet"],
+      ["Singular" ,"Person3" ,"Masc" ,"haagganeet"],
+      ["Singular" ,"Person3" ,"Fem" ,"haagganeet"],
+      ["Plural" ,"Person1" ,"Common" ,"haagganeet"],
+      ["Plural" ,"Person2" ,"Common" ,"haagganeet"],
+      ["Plural" ,"Person3" ,"Common" ,"haagganeet"]
     ]
   },
   {
-    "label": "ren-VerbStative-haaggan-PerfectNegative",
+    "label": "ren-VerbStative-haaggan-PerfectAffirmativeSubordinate",
     "note": "PG99p.45",
     "common": {
       "clauseType": "Subordinate",
       "conjClass": "Stative",
       "lexeme": "haaggan",
-      "polarity": "Negative",
+      "polarity": "Affirmative",
       "pos": "Verb",
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"íhaagganéynan"],
-      ["Common" ,"Plural" ,"Person1" ,"íhaagganéynan"],
-      ["Common" ,"Plural" ,"Person3" ,"íhaagganéynan"],
-      ["Common" ,"Singular" ,"Person1" ,"íhaagganéynan"],
-      ["Common" ,"Singular" ,"Person2" ,"íhaagganéynan"],
-      ["Fem" ,"Singular" ,"Person3" ,"íhaagganéynan"],
-      ["Common" ,"Plural" ,"Person2" ,"íhaagganéynan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"haagganeet"],
+      ["Singular" ,"Person2" ,"Common" ,"haagganeet"],
+      ["Singular" ,"Person3" ,"Masc" ,"haagganeet"],
+      ["Singular" ,"Person3" ,"Fem" ,"haagganeet"],
+      ["Plural" ,"Person1" ,"Common" ,"haagganeet"],
+      ["Plural" ,"Person2" ,"Common" ,"haagganeet"],
+      ["Plural" ,"Person3" ,"Common" ,"haagganeet"]
     ]
   },
   {
-    "label": "ren-VerbStative-haaggan-PerfectNegative",
+    "label": "ren-VerbStative-haaggan-PerfectNegativeMain",
     "note": "PG99p.45",
     "common": {
       "clauseType": "Main",
@@ -1101,19 +1173,41 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"má haagganéynan"],
-      ["Masc" ,"Singular" ,"Person3" ,"má haagganéynan"],
-      ["Fem" ,"Singular" ,"Person3" ,"má haagganéynan"],
-      ["Common" ,"Plural" ,"Person1" ,"má haagganéynan"],
-      ["Common" ,"Singular" ,"Person2" ,"má haagganéynan"],
-      ["Common" ,"Singular" ,"Person1" ,"má haagganéynan"],
-      ["Common" ,"Plural" ,"Person2" ,"má haagganéynan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má haagganéynan"],
+      ["Singular" ,"Person2" ,"Common" ,"má haagganéynan"],
+      ["Singular" ,"Person3" ,"Masc" ,"má haagganéynan"],
+      ["Singular" ,"Person3" ,"Fem" ,"má haagganéynan"],
+      ["Plural" ,"Person1" ,"Common" ,"má haagganéynan"],
+      ["Plural" ,"Person2" ,"Common" ,"má haagganéynan"],
+      ["Plural" ,"Person3" ,"Common" ,"má haagganéynan"]
+    ]
+  },
+  {
+    "label": "ren-VerbStative-haaggan-PerfectNegativeSubordinate",
+    "note": "PG99p.45",
+    "common": {
+      "clauseType": "Subordinate",
+      "conjClass": "Stative",
+      "lexeme": "haaggan",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"íhaagganéynan"],
+      ["Singular" ,"Person2" ,"Common" ,"íhaagganéynan"],
+      ["Singular" ,"Person3" ,"Masc" ,"íhaagganéynan"],
+      ["Singular" ,"Person3" ,"Fem" ,"íhaagganéynan"],
+      ["Plural" ,"Person1" ,"Common" ,"íhaagganéynan"],
+      ["Plural" ,"Person2" ,"Common" ,"íhaagganéynan"],
+      ["Plural" ,"Person3" ,"Common" ,"íhaagganéynan"]
     ]
   },
   {
     "label": "ren-VerbSuffix-fur-BConcessiveAffirmative",
-    "note": "PG99p.",
+    "note": "PG99pp.47-48",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "B",
@@ -1123,19 +1217,19 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"fúrréey"],
-      ["Fem" ,"Singular" ,"Person3" ,"fúrtéey"],
-      ["Common" ,"Singular" ,"Person2" ,"fúrtéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"fúréey"],
-      ["Common" ,"Singular" ,"Person1" ,"fúréey"],
-      ["Common" ,"Plural" ,"Person3" ,"fúreenéey"],
-      ["Common" ,"Plural" ,"Person2" ,"fúrteenéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"fúréey"],
+      ["Singular" ,"Person2" ,"Common" ,"fúrtéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"fúréey"],
+      ["Singular" ,"Person3" ,"Fem" ,"fúrtéey"],
+      ["Plural" ,"Person1" ,"Common" ,"fúrréey"],
+      ["Plural" ,"Person2" ,"Common" ,"fúrteenéey"],
+      ["Plural" ,"Person3" ,"Common" ,"fúreenéey"]
     ]
   },
   {
     "label": "ren-VerbSuffix-fur-BConcessiveNegative",
-    "note": "PG99p.",
+    "note": "PG99pp.47-48",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "B",
@@ -1145,19 +1239,19 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"má fúrinéey"],
-      ["Common" ,"Singular" ,"Person2" ,"má fúrinéey"],
-      ["Common" ,"Plural" ,"Person2" ,"má fúrinéey"],
-      ["Common" ,"Plural" ,"Person3" ,"má fúrinéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"má fúrinéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"má fúrinéey"],
-      ["Common" ,"Plural" ,"Person1" ,"má fúrinéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má fúrinéey"],
+      ["Singular" ,"Person2" ,"Common" ,"má fúrinéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"má fúrinéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"má fúrinéey"],
+      ["Plural" ,"Person1" ,"Common" ,"má fúrinéey"],
+      ["Plural" ,"Person2" ,"Common" ,"má fúrinéey"],
+      ["Plural" ,"Person3" ,"Common" ,"má fúrinéey"]
     ]
   },
   {
     "label": "ren-VerbSuffix-fur-BImperativeAffirmative",
-    "note": "PG99p.",
+    "note": "PG99pp.47-48",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "B",
@@ -1167,14 +1261,14 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Plural" ,"Person2" ,"Common" ,"fúra"],
       ["Singular" ,"Person2" ,"Common" ,"fur"]
     ]
   },
   {
     "label": "ren-VerbSuffix-fur-BImperativeNegative",
-    "note": "PG99p.",
+    "note": "PG99pp.47-48",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "B",
@@ -1184,37 +1278,14 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person2" ,"Common" ,"afúrin"],
       ["Plural" ,"Person2" ,"Common" ,"afurína"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-BImperfectAffirmative",
-    "note": "PG99p.",
-    "common": {
-      "clauseType": "Subordinate",
-      "conjClass": "Suffix",
-      "derivedStem": "B",
-      "lexeme": "fur",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Imperfect"
-    },
-    "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"furo"],
-      ["Common" ,"Plural" ,"Person1" ,"furro (fur+no)"],
-      ["Fem" ,"Singular" ,"Person3" ,"furto"],
-      ["Common" ,"Singular" ,"Person2" ,"furto"],
-      ["Masc" ,"Singular" ,"Person3" ,"furo"],
-      ["Common" ,"Plural" ,"Person2" ,"furtaan"],
-      ["Common" ,"Plural" ,"Person3" ,"furaan"]
-    ]
-  },
-  {
-    "label": "ren-VerbSuffix-fur-BImperfectAffirmative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-fur-BImperfectAffirmativeMain",
+    "note": "PG99pp.47-48",
     "common": {
       "clauseType": "Main",
       "conjClass": "Suffix",
@@ -1225,19 +1296,42 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Fem" ,"Singular" ,"Person3" ,"furta"],
-      ["Common" ,"Singular" ,"Person2" ,"furta"],
-      ["Common" ,"Singular" ,"Person1" ,"fura"],
-      ["Common" ,"Plural" ,"Person1" ,"furra (fur+na)"],
-      ["Common" ,"Plural" ,"Person3" ,"furaan"],
-      ["Masc" ,"Singular" ,"Person3" ,"fura"],
-      ["Common" ,"Plural" ,"Person2" ,"furtaan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"fura"],
+      ["Singular" ,"Person2" ,"Common" ,"furta"],
+      ["Singular" ,"Person3" ,"Masc" ,"fura"],
+      ["Singular" ,"Person3" ,"Fem" ,"furta"],
+      ["Plural" ,"Person1" ,"Common" ,"furra (fur+na)"],
+      ["Plural" ,"Person2" ,"Common" ,"furtaan"],
+      ["Plural" ,"Person3" ,"Common" ,"furaan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-BImperfectNegative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-fur-BImperfectAffirmativeSubordinate",
+    "note": "PG99pp.47-48",
+    "common": {
+      "clauseType": "Subordinate",
+      "conjClass": "Suffix",
+      "derivedStem": "B",
+      "lexeme": "fur",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má furo"],
+      ["Singular" ,"Person2" ,"Common" ,"má furto"],
+      ["Singular" ,"Person3" ,"Masc" ,"má furo"],
+      ["Singular" ,"Person3" ,"Fem" ,"má furto"],
+      ["Plural" ,"Person1" ,"Common" ,"má furro (fur+no)"],
+      ["Plural" ,"Person2" ,"Common" ,"má furtaan"],
+      ["Plural" ,"Person3" ,"Common" ,"má furaan"]
+    ]
+  },
+  {
+    "label": "ren-VerbSuffix-fur-BImperfectNegativeMain",
+    "note": "PG99pp.47-48",
     "common": {
       "clauseType": "Main",
       "conjClass": "Suffix",
@@ -1248,19 +1342,19 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person2" ,"má furtaan"],
-      ["Masc" ,"Singular" ,"Person3" ,"má furo"],
-      ["Common" ,"Plural" ,"Person3" ,"má furaan"],
-      ["Common" ,"Singular" ,"Person1" ,"má furo"],
-      ["Common" ,"Plural" ,"Person1" ,"má furro (fur+no)"],
-      ["Common" ,"Singular" ,"Person2" ,"má furto"],
-      ["Fem" ,"Singular" ,"Person3" ,"má furto"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má furo"],
+      ["Singular" ,"Person2" ,"Common" ,"má furto"],
+      ["Singular" ,"Person3" ,"Masc" ,"má furo"],
+      ["Singular" ,"Person3" ,"Fem" ,"má furto"],
+      ["Plural" ,"Person1" ,"Common" ,"má furro (fur+no)"],
+      ["Plural" ,"Person2" ,"Common" ,"má furtaan"],
+      ["Plural" ,"Person3" ,"Common" ,"má furaan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-BImperfectNegative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-fur-BImperfectNegativeSubordinate",
+    "note": "PG99pp.47-48",
     "common": {
       "clauseType": "Subordinate",
       "conjClass": "Suffix",
@@ -1271,19 +1365,19 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"má furin"],
-      ["Masc" ,"Singular" ,"Person3" ,"má furin"],
-      ["Common" ,"Singular" ,"Person2" ,"má furin"],
-      ["Common" ,"Plural" ,"Person2" ,"má furin"],
-      ["Common" ,"Plural" ,"Person1" ,"má furin"],
-      ["Common" ,"Singular" ,"Person1" ,"ífurin"],
-      ["Fem" ,"Singular" ,"Person3" ,"má furin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ífurin"],
+      ["Singular" ,"Person2" ,"Common" ,"má furin"],
+      ["Singular" ,"Person3" ,"Masc" ,"má furin"],
+      ["Singular" ,"Person3" ,"Fem" ,"má furin"],
+      ["Plural" ,"Person1" ,"Common" ,"má furin"],
+      ["Plural" ,"Person2" ,"Common" ,"má furin"],
+      ["Plural" ,"Person3" ,"Common" ,"má furin"]
     ]
   },
   {
     "label": "ren-VerbSuffix-fur-BOptativeAffirmative",
-    "note": "PG99p.",
+    "note": "PG99pp.47-48",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "B",
@@ -1293,17 +1387,17 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"á furro (fur+no)"],
-      ["Fem" ,"Singular" ,"Person3" ,"á furto"],
-      ["Masc" ,"Singular" ,"Person3" ,"á furo"],
-      ["Common" ,"Plural" ,"Person3" ,"á furaan"],
-      ["Common" ,"Singular" ,"Person1" ,"á furo"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á furo"],
+      ["Singular" ,"Person3" ,"Masc" ,"á furo"],
+      ["Singular" ,"Person3" ,"Fem" ,"á furto"],
+      ["Plural" ,"Person1" ,"Common" ,"á furro (fur+no)"],
+      ["Plural" ,"Person3" ,"Common" ,"á furaan"]
     ]
   },
   {
     "label": "ren-VerbSuffix-fur-BOptativeNegative",
-    "note": "PG99p.",
+    "note": "PG99pp.47-48",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "B",
@@ -1313,40 +1407,17 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"úun nah fúrin"],
-      ["Fem" ,"Singular" ,"Person3" ,"úun (us) fúrin"],
-      ["Common" ,"Plural" ,"Person3" ,"úun ičo fúrin"],
-      ["Masc" ,"Singular" ,"Person3" ,"úun iče fúrin"],
-      ["Common" ,"Singular" ,"Person1" ,"úun an fúrin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"úun an fúrin"],
+      ["Singular" ,"Person3" ,"Masc" ,"úun iče fúrin"],
+      ["Singular" ,"Person3" ,"Fem" ,"úun (us) fúrin"],
+      ["Plural" ,"Person1" ,"Common" ,"úun nah fúrin"],
+      ["Plural" ,"Person3" ,"Common" ,"úun ičo fúrin"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-BPerfectAffirmative",
-    "note": "PG99p.",
-    "common": {
-      "clauseType": "Subordinate",
-      "conjClass": "Suffix",
-      "derivedStem": "B",
-      "lexeme": "fur",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Perfect"
-    },
-    "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person2" ,"furte"],
-      ["Common" ,"Singular" ,"Person1" ,"fure"],
-      ["Common" ,"Plural" ,"Person3" ,"fureen"],
-      ["Common" ,"Plural" ,"Person1" ,"furre (fur+ne)"],
-      ["Fem" ,"Singular" ,"Person3" ,"furte"],
-      ["Masc" ,"Singular" ,"Person3" ,"fure"],
-      ["Common" ,"Plural" ,"Person2" ,"furteen"]
-    ]
-  },
-  {
-    "label": "ren-VerbSuffix-fur-BPerfectAffirmative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-fur-BPerfectAffirmativeMain",
+    "note": "PG99pp.47-48",
     "common": {
       "clauseType": "Main",
       "conjClass": "Suffix",
@@ -1357,19 +1428,42 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person2" ,"furteen"],
-      ["Common" ,"Plural" ,"Person3" ,"fureen"],
-      ["Common" ,"Plural" ,"Person1" ,"furre (fur+ne)"],
-      ["Fem" ,"Singular" ,"Person3" ,"furte"],
-      ["Masc" ,"Singular" ,"Person3" ,"fure"],
-      ["Common" ,"Singular" ,"Person2" ,"furte"],
-      ["Common" ,"Singular" ,"Person1" ,"fure"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"fure"],
+      ["Singular" ,"Person2" ,"Common" ,"furte"],
+      ["Singular" ,"Person3" ,"Masc" ,"fure"],
+      ["Singular" ,"Person3" ,"Fem" ,"furte"],
+      ["Plural" ,"Person1" ,"Common" ,"furre (fur+ne)"],
+      ["Plural" ,"Person2" ,"Common" ,"furteen"],
+      ["Plural" ,"Person3" ,"Common" ,"fureen"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-BPerfectNegative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-fur-BPerfectAffirmativeSubordinate",
+    "note": "PG99pp.47-48",
+    "common": {
+      "clauseType": "Subordinate",
+      "conjClass": "Suffix",
+      "derivedStem": "B",
+      "lexeme": "fur",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"fure"],
+      ["Singular" ,"Person2" ,"Common" ,"furte"],
+      ["Singular" ,"Person3" ,"Masc" ,"fure"],
+      ["Singular" ,"Person3" ,"Fem" ,"furte"],
+      ["Plural" ,"Person1" ,"Common" ,"furre (fur+ne)"],
+      ["Plural" ,"Person2" ,"Common" ,"furteen"],
+      ["Plural" ,"Person3" ,"Common" ,"fureen"]
+    ]
+  },
+  {
+    "label": "ren-VerbSuffix-fur-BPerfectNegativeMain",
+    "note": "PG99pp.47-48",
     "common": {
       "clauseType": "Main",
       "conjClass": "Suffix",
@@ -1380,19 +1474,19 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"má furin"],
-      ["Common" ,"Singular" ,"Person2" ,"má furin"],
-      ["Common" ,"Singular" ,"Person1" ,"má furin"],
-      ["Common" ,"Plural" ,"Person1" ,"má furin"],
-      ["Common" ,"Plural" ,"Person2" ,"má furin"],
-      ["Fem" ,"Singular" ,"Person3" ,"má furin"],
-      ["Masc" ,"Singular" ,"Person3" ,"má furin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má furin"],
+      ["Singular" ,"Person2" ,"Common" ,"má furin"],
+      ["Singular" ,"Person3" ,"Masc" ,"má furin"],
+      ["Singular" ,"Person3" ,"Fem" ,"má furin"],
+      ["Plural" ,"Person1" ,"Common" ,"má furin"],
+      ["Plural" ,"Person2" ,"Common" ,"má furin"],
+      ["Plural" ,"Person3" ,"Common" ,"má furin"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-BPerfectNegative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-fur-BPerfectNegativeSubordinate",
+    "note": "PG99pp.47-48",
     "common": {
       "clauseType": "Subordinate",
       "conjClass": "Suffix",
@@ -1403,14 +1497,14 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"má furin"],
-      ["Common" ,"Plural" ,"Person3" ,"má furin"],
-      ["Fem" ,"Singular" ,"Person3" ,"má furin"],
-      ["Common" ,"Plural" ,"Person2" ,"má furin"],
-      ["Common" ,"Plural" ,"Person1" ,"má furin"],
-      ["Masc" ,"Singular" ,"Person3" ,"má furin"],
-      ["Common" ,"Singular" ,"Person2" ,"má furin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má furin"],
+      ["Singular" ,"Person2" ,"Common" ,"má furin"],
+      ["Singular" ,"Person3" ,"Masc" ,"má furin"],
+      ["Singular" ,"Person3" ,"Fem" ,"má furin"],
+      ["Plural" ,"Person1" ,"Common" ,"má furin"],
+      ["Plural" ,"Person2" ,"Common" ,"má furin"],
+      ["Plural" ,"Person3" ,"Common" ,"má furin"]
     ]
   },
   {
@@ -1425,14 +1519,14 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"fúrannéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"fúrantéey"],
-      ["Common" ,"Singular" ,"Person2" ,"fúrantéey"],
-      ["Common" ,"Plural" ,"Person2" ,"fúranteenéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"fúraméey"],
-      ["Common" ,"Singular" ,"Person1" ,"fúraméey"],
-      ["Common" ,"Plural" ,"Person3" ,"fúrmeenéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"fúraméey"],
+      ["Singular" ,"Person2" ,"Common" ,"fúrantéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"fúraméey"],
+      ["Singular" ,"Person3" ,"Fem" ,"fúrantéey"],
+      ["Plural" ,"Person1" ,"Common" ,"fúrannéey"],
+      ["Plural" ,"Person2" ,"Common" ,"fúranteenéey"],
+      ["Plural" ,"Person3" ,"Common" ,"fúrmeenéey"]
     ]
   },
   {
@@ -1447,14 +1541,14 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"má fúrminéey"],
-      ["Common" ,"Plural" ,"Person1" ,"má fúrminéey"],
-      ["Common" ,"Plural" ,"Person2" ,"má fúrminéey"],
-      ["Common" ,"Plural" ,"Person3" ,"má fúrminéey"],
-      ["Common" ,"Singular" ,"Person2" ,"má fúrminéey"],
-      ["Common" ,"Singular" ,"Person1" ,"má fúrminéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"má fúrminéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má fúrminéey"],
+      ["Singular" ,"Person2" ,"Common" ,"má fúrminéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"má fúrminéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"má fúrminéey"],
+      ["Plural" ,"Person1" ,"Common" ,"má fúrminéey"],
+      ["Plural" ,"Person2" ,"Common" ,"má fúrminéey"],
+      ["Plural" ,"Person3" ,"Common" ,"má fúrminéey"]
     ]
   },
   {
@@ -1469,7 +1563,7 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Plural" ,"Person2" ,"Common" ,"fúrma"],
       ["Singular" ,"Person2" ,"Common" ,"furam"]
     ]
@@ -1486,36 +1580,13 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person2" ,"Common" ,"afúrmin"],
       ["Plural" ,"Person2" ,"Common" ,"afuramína"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-M1ImperfectAffirmative",
-    "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
-    "common": {
-      "clauseType": "Subordinate",
-      "conjClass": "Suffix",
-      "derivedStem": "M1",
-      "lexeme": "fur",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Imperfect"
-    },
-    "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"furmo"],
-      ["Common" ,"Plural" ,"Person1" ,"furanno "],
-      ["Masc" ,"Singular" ,"Person3" ,"furmo"],
-      ["Common" ,"Plural" ,"Person2" ,"furantaan"],
-      ["Fem" ,"Singular" ,"Person3" ,"furanto"],
-      ["Common" ,"Plural" ,"Person3" ,"furmaan"],
-      ["Common" ,"Singular" ,"Person2" ,"furanto"]
-    ]
-  },
-  {
-    "label": "ren-VerbSuffix-fur-M1ImperfectAffirmative",
+    "label": "ren-VerbSuffix-fur-M1ImperfectAffirmativeMain",
     "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
     "common": {
       "clauseType": "Main",
@@ -1527,18 +1598,41 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"furanna "],
-      ["Common" ,"Singular" ,"Person2" ,"furanta"],
-      ["Common" ,"Plural" ,"Person2" ,"furantaan"],
-      ["Fem" ,"Singular" ,"Person3" ,"furanta"],
-      ["Common" ,"Plural" ,"Person3" ,"furmaan"],
-      ["Common" ,"Singular" ,"Person1" ,"furma"],
-      ["Masc" ,"Singular" ,"Person3" ,"furma"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"furma"],
+      ["Singular" ,"Person2" ,"Common" ,"furanta"],
+      ["Singular" ,"Person3" ,"Masc" ,"furma"],
+      ["Singular" ,"Person3" ,"Fem" ,"furanta"],
+      ["Plural" ,"Person1" ,"Common" ,"furanna "],
+      ["Plural" ,"Person2" ,"Common" ,"furantaan"],
+      ["Plural" ,"Person3" ,"Common" ,"furmaan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-M1ImperfectNegative",
+    "label": "ren-VerbSuffix-fur-M1ImperfectAffirmativeSubordinate",
+    "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
+    "common": {
+      "clauseType": "Subordinate",
+      "conjClass": "Suffix",
+      "derivedStem": "M1",
+      "lexeme": "fur",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"furmo"],
+      ["Singular" ,"Person2" ,"Common" ,"furanto"],
+      ["Singular" ,"Person3" ,"Masc" ,"furmo"],
+      ["Singular" ,"Person3" ,"Fem" ,"furanto"],
+      ["Plural" ,"Person1" ,"Common" ,"furanno "],
+      ["Plural" ,"Person2" ,"Common" ,"furantaan"],
+      ["Plural" ,"Person3" ,"Common" ,"furmaan"]
+    ]
+  },
+  {
+    "label": "ren-VerbSuffix-fur-M1ImperfectNegativeSubordinate",
     "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
     "common": {
       "clauseType": "Subordinate",
@@ -1550,14 +1644,14 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Fem" ,"Singular" ,"Person3" ,"má furmin"],
-      ["Common" ,"Singular" ,"Person1" ,"ífurmin"],
-      ["Common" ,"Singular" ,"Person2" ,"má furmin"],
-      ["Common" ,"Plural" ,"Person3" ,"má furmin"],
-      ["Common" ,"Plural" ,"Person1" ,"má furmin"],
-      ["Masc" ,"Singular" ,"Person3" ,"má furmin"],
-      ["Common" ,"Plural" ,"Person2" ,"má furmin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ífurmin"],
+      ["Singular" ,"Person2" ,"Common" ,"má furmin"],
+      ["Singular" ,"Person3" ,"Masc" ,"má furmin"],
+      ["Singular" ,"Person3" ,"Fem" ,"má furmin"],
+      ["Plural" ,"Person1" ,"Common" ,"má furmin"],
+      ["Plural" ,"Person2" ,"Common" ,"má furmin"],
+      ["Plural" ,"Person3" ,"Common" ,"má furmin"]
     ]
   },
   {
@@ -1572,12 +1666,12 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"á furmo"],
-      ["Fem" ,"Singular" ,"Person3" ,"á furanto"],
-      ["Common" ,"Plural" ,"Person1" ,"á furanno "],
-      ["Common" ,"Plural" ,"Person3" ,"á furmaan"],
-      ["Common" ,"Singular" ,"Person1" ,"á furmo"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á furmo"],
+      ["Singular" ,"Person3" ,"Masc" ,"á furmo"],
+      ["Singular" ,"Person3" ,"Fem" ,"á furanto"],
+      ["Plural" ,"Person1" ,"Common" ,"á furanno "],
+      ["Plural" ,"Person3" ,"Common" ,"á furmaan"]
     ]
   },
   {
@@ -1592,39 +1686,16 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"úun an fúrmin"],
-      ["Common" ,"Plural" ,"Person1" ,"úun nah fúrmin"],
-      ["Masc" ,"Singular" ,"Person3" ,"úun iče fúrmin"],
-      ["Common" ,"Plural" ,"Person3" ,"úun ičo fúrmin"],
-      ["Fem" ,"Singular" ,"Person3" ,"úun (us) fúrmin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"úun an fúrmin"],
+      ["Singular" ,"Person3" ,"Masc" ,"úun iče fúrmin"],
+      ["Singular" ,"Person3" ,"Fem" ,"úun (us) fúrmin"],
+      ["Plural" ,"Person1" ,"Common" ,"úun nah fúrmin"],
+      ["Plural" ,"Person3" ,"Common" ,"úun ičo fúrmin"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-M1PerfectAffirmative",
-    "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
-    "common": {
-      "clauseType": "Subordinate",
-      "conjClass": "Suffix",
-      "derivedStem": "M1",
-      "lexeme": "fur",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Perfect"
-    },
-    "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person2" ,"furanteen"],
-      ["Fem" ,"Singular" ,"Person3" ,"furante"],
-      ["Common" ,"Plural" ,"Person1" ,"furanne "],
-      ["Common" ,"Singular" ,"Person1" ,"furme"],
-      ["Common" ,"Plural" ,"Person3" ,"furmeen"],
-      ["Masc" ,"Singular" ,"Person3" ,"furme"],
-      ["Common" ,"Singular" ,"Person2" ,"furante"]
-    ]
-  },
-  {
-    "label": "ren-VerbSuffix-fur-M1PerfectAffirmative",
+    "label": "ren-VerbSuffix-fur-M1PerfectAffirmativeMain",
     "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
     "common": {
       "clauseType": "Main",
@@ -1636,18 +1707,41 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"furmeen"],
-      ["Common" ,"Singular" ,"Person2" ,"furante"],
-      ["Common" ,"Plural" ,"Person1" ,"furanne "],
-      ["Common" ,"Plural" ,"Person2" ,"furanteen"],
-      ["Common" ,"Singular" ,"Person1" ,"furme"],
-      ["Masc" ,"Singular" ,"Person3" ,"furme"],
-      ["Fem" ,"Singular" ,"Person3" ,"furante"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"furme"],
+      ["Singular" ,"Person2" ,"Common" ,"furante"],
+      ["Singular" ,"Person3" ,"Masc" ,"furme"],
+      ["Singular" ,"Person3" ,"Fem" ,"furante"],
+      ["Plural" ,"Person1" ,"Common" ,"furanne "],
+      ["Plural" ,"Person2" ,"Common" ,"furanteen"],
+      ["Plural" ,"Person3" ,"Common" ,"furmeen"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-M1PerfectNegative",
+    "label": "ren-VerbSuffix-fur-M1PerfectAffirmativeSubordinate",
+    "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
+    "common": {
+      "clauseType": "Subordinate",
+      "conjClass": "Suffix",
+      "derivedStem": "M1",
+      "lexeme": "fur",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"furme"],
+      ["Singular" ,"Person2" ,"Common" ,"furante"],
+      ["Singular" ,"Person3" ,"Masc" ,"furme"],
+      ["Singular" ,"Person3" ,"Fem" ,"furante"],
+      ["Plural" ,"Person1" ,"Common" ,"furanne "],
+      ["Plural" ,"Person2" ,"Common" ,"furanteen"],
+      ["Plural" ,"Person3" ,"Common" ,"furmeen"]
+    ]
+  },
+  {
+    "label": "ren-VerbSuffix-fur-M1PerfectNegativeMain",
     "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
     "common": {
       "clauseType": "Main",
@@ -1659,18 +1753,18 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person2" ,"má furmin"],
-      ["Fem" ,"Singular" ,"Person3" ,"má furmin"],
-      ["Masc" ,"Singular" ,"Person3" ,"má furmin"],
-      ["Common" ,"Plural" ,"Person2" ,"má furmin"],
-      ["Common" ,"Plural" ,"Person1" ,"má furmin"],
-      ["Common" ,"Singular" ,"Person1" ,"má furmin"],
-      ["Common" ,"Plural" ,"Person3" ,"má furmin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má furmin"],
+      ["Singular" ,"Person2" ,"Common" ,"má furmin"],
+      ["Singular" ,"Person3" ,"Masc" ,"má furmin"],
+      ["Singular" ,"Person3" ,"Fem" ,"má furmin"],
+      ["Plural" ,"Person1" ,"Common" ,"má furmin"],
+      ["Plural" ,"Person2" ,"Common" ,"má furmin"],
+      ["Plural" ,"Person3" ,"Common" ,"má furmin"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-M1PerfectNegative",
+    "label": "ren-VerbSuffix-fur-M1PerfectNegativeSubordinate",
     "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
     "common": {
       "clauseType": "Subordinate",
@@ -1682,14 +1776,14 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person2" ,"má furmin"],
-      ["Masc" ,"Singular" ,"Person3" ,"má furmin"],
-      ["Common" ,"Singular" ,"Person2" ,"má furmin"],
-      ["Common" ,"Singular" ,"Person1" ,"má furmin"],
-      ["Fem" ,"Singular" ,"Person3" ,"má furmin"],
-      ["Common" ,"Plural" ,"Person1" ,"má furmin"],
-      ["Common" ,"Plural" ,"Person3" ,"má furmin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má furmin"],
+      ["Singular" ,"Person2" ,"Common" ,"má furmin"],
+      ["Singular" ,"Person3" ,"Masc" ,"má furmin"],
+      ["Singular" ,"Person3" ,"Fem" ,"má furmin"],
+      ["Plural" ,"Person1" ,"Common" ,"má furmin"],
+      ["Plural" ,"Person2" ,"Common" ,"má furmin"],
+      ["Plural" ,"Person3" ,"Common" ,"má furmin"]
     ]
   },
   {
@@ -1704,14 +1798,14 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person2" ,"fúrnantéey / fúrmantéey"],
-      ["Common" ,"Singular" ,"Person1" ,"fúrnaméey"],
-      ["Common" ,"Plural" ,"Person3" ,"fúrnameenéey"],
-      ["Common" ,"Plural" ,"Person2" ,"fúrnanteenéey / fúrmanteenéey"],
-      ["Common" ,"Plural" ,"Person1" ,"fúrnannéey / fúrmannéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"fúrnaméey"],
-      ["Fem" ,"Singular" ,"Person3" ,"fúrnantéey / fúrmantéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"fúrnaméey"],
+      ["Singular" ,"Person2" ,"Common" ,"fúrnantéey / fúrmantéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"fúrnaméey"],
+      ["Singular" ,"Person3" ,"Fem" ,"fúrnantéey / fúrmantéey"],
+      ["Plural" ,"Person1" ,"Common" ,"fúrnannéey / fúrmannéey"],
+      ["Plural" ,"Person2" ,"Common" ,"fúrnanteenéey / fúrmanteenéey"],
+      ["Plural" ,"Person3" ,"Common" ,"fúrnameenéey"]
     ]
   },
   {
@@ -1726,14 +1820,14 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"má fúrnaminéey"],
-      ["Common" ,"Plural" ,"Person2" ,"má fúrnaminéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"má fúrnaminéey"],
-      ["Common" ,"Plural" ,"Person1" ,"má fúrnaminéey"],
-      ["Common" ,"Singular" ,"Person2" ,"má fúrnaminéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"má fúrnaminéey"],
-      ["Common" ,"Plural" ,"Person3" ,"má fúrnaminéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má fúrnaminéey"],
+      ["Singular" ,"Person2" ,"Common" ,"má fúrnaminéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"má fúrnaminéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"má fúrnaminéey"],
+      ["Plural" ,"Person1" ,"Common" ,"má fúrnaminéey"],
+      ["Plural" ,"Person2" ,"Common" ,"má fúrnaminéey"],
+      ["Plural" ,"Person3" ,"Common" ,"má fúrnaminéey"]
     ]
   },
   {
@@ -1748,7 +1842,7 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Plural" ,"Person2" ,"Common" ,"fúrnama"],
       ["Singular" ,"Person2" ,"Common" ,"furnam"]
     ]
@@ -1765,13 +1859,13 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person2" ,"Common" ,"afúrnamin"],
       ["Plural" ,"Person2" ,"Common" ,"afurnamína"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-M2ImperfectAffirmative",
+    "label": "ren-VerbSuffix-fur-M2ImperfectAffirmativeMain",
     "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
     "common": {
       "clauseType": "Main",
@@ -1783,18 +1877,18 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person2" ,"furnanta / furmanta"],
-      ["Masc" ,"Singular" ,"Person3" ,"furnama"],
-      ["Common" ,"Plural" ,"Person1" ,"furnanna / furmanna "],
-      ["Fem" ,"Singular" ,"Person3" ,"furnanta / furmanta"],
-      ["Common" ,"Plural" ,"Person2" ,"furnantaan / furmantaan"],
-      ["Common" ,"Singular" ,"Person1" ,"furnama"],
-      ["Common" ,"Plural" ,"Person3" ,"furnamaan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"furnama"],
+      ["Singular" ,"Person2" ,"Common" ,"furnanta / furmanta"],
+      ["Singular" ,"Person3" ,"Masc" ,"furnama"],
+      ["Singular" ,"Person3" ,"Fem" ,"furnanta / furmanta"],
+      ["Plural" ,"Person1" ,"Common" ,"furnanna / furmanna "],
+      ["Plural" ,"Person2" ,"Common" ,"furnantaan / furmantaan"],
+      ["Plural" ,"Person3" ,"Common" ,"furnamaan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-M2ImperfectAffirmative",
+    "label": "ren-VerbSuffix-fur-M2ImperfectAffirmativeSubordinate",
     "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
     "common": {
       "clauseType": "Subordinate",
@@ -1806,18 +1900,18 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"furnamo"],
-      ["Common" ,"Plural" ,"Person1" ,"furnanno / furmanno "],
-      ["Common" ,"Plural" ,"Person2" ,"furnantaan / furmantaan"],
-      ["Common" ,"Plural" ,"Person3" ,"furnamaan"],
-      ["Common" ,"Singular" ,"Person2" ,"furnanto / furmanto"],
-      ["Fem" ,"Singular" ,"Person3" ,"furnanto / furmanto"],
-      ["Masc" ,"Singular" ,"Person3" ,"furnamo"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"furnamo"],
+      ["Singular" ,"Person2" ,"Common" ,"furnanto / furmanto"],
+      ["Singular" ,"Person3" ,"Masc" ,"furnamo"],
+      ["Singular" ,"Person3" ,"Fem" ,"furnanto / furmanto"],
+      ["Plural" ,"Person1" ,"Common" ,"furnanno / furmanno "],
+      ["Plural" ,"Person2" ,"Common" ,"furnantaan / furmantaan"],
+      ["Plural" ,"Person3" ,"Common" ,"furnamaan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-M2ImperfectNegative",
+    "label": "ren-VerbSuffix-fur-M2ImperfectNegativeMain",
     "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
     "common": {
       "clauseType": "Main",
@@ -1829,18 +1923,18 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"má furnamaan"],
-      ["Common" ,"Plural" ,"Person1" ,"má furnanno / má furmanno "],
-      ["Common" ,"Singular" ,"Person2" ,"má furnanto /má furmanto"],
-      ["Masc" ,"Singular" ,"Person3" ,"má furnamo"],
-      ["Common" ,"Singular" ,"Person1" ,"má furnamo"],
-      ["Common" ,"Plural" ,"Person2" ,"má furnantaan / má furmantaan"],
-      ["Fem" ,"Singular" ,"Person3" ,"má furnanto / má furmanto"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má furnamo"],
+      ["Singular" ,"Person2" ,"Common" ,"má furnanto /má furmanto"],
+      ["Singular" ,"Person3" ,"Masc" ,"má furnamo"],
+      ["Singular" ,"Person3" ,"Fem" ,"má furnanto / má furmanto"],
+      ["Plural" ,"Person1" ,"Common" ,"má furnanno / má furmanno "],
+      ["Plural" ,"Person2" ,"Common" ,"má furnantaan / má furmantaan"],
+      ["Plural" ,"Person3" ,"Common" ,"má furnamaan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-M2ImperfectNegative",
+    "label": "ren-VerbSuffix-fur-M2ImperfectNegativeSubordinate",
     "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
     "common": {
       "clauseType": "Subordinate",
@@ -1852,14 +1946,14 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"má furnamin"],
-      ["Common" ,"Plural" ,"Person1" ,"má furnamin"],
-      ["Fem" ,"Singular" ,"Person3" ,"má furnamin"],
-      ["Masc" ,"Singular" ,"Person3" ,"má furnamin"],
-      ["Common" ,"Singular" ,"Person1" ,"ífurnamin"],
-      ["Common" ,"Plural" ,"Person2" ,"má furnamin"],
-      ["Common" ,"Singular" ,"Person2" ,"má furnamin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ífurnamin"],
+      ["Singular" ,"Person2" ,"Common" ,"má furnamin"],
+      ["Singular" ,"Person3" ,"Masc" ,"má furnamin"],
+      ["Singular" ,"Person3" ,"Fem" ,"má furnamin"],
+      ["Plural" ,"Person1" ,"Common" ,"má furnamin"],
+      ["Plural" ,"Person2" ,"Common" ,"má furnamin"],
+      ["Plural" ,"Person3" ,"Common" ,"má furnamin"]
     ]
   },
   {
@@ -1874,14 +1968,14 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"á furnamo"],
-      ["Fem" ,"Singular" ,"Person3" ,"á furnanto"],
-      ["Common" ,"Singular" ,"Person1" ,"á furnamo"],
-      ["Common" ,"Singular" ,"Person2" ,"á furnanto"],
-      ["Common" ,"Plural" ,"Person1" ,"á furnanno ~ á furmanno"],
-      ["Common" ,"Plural" ,"Person2" ,"á furnanteen"],
-      ["Common" ,"Plural" ,"Person3" ,"á furnameen"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á furnamo"],
+      ["Singular" ,"Person2" ,"Common" ,"á furnanto"],
+      ["Singular" ,"Person3" ,"Masc" ,"á furnamo"],
+      ["Singular" ,"Person3" ,"Fem" ,"á furnanto"],
+      ["Plural" ,"Person1" ,"Common" ,"á furnanno ~ á furmanno"],
+      ["Plural" ,"Person2" ,"Common" ,"á furnanteen"],
+      ["Plural" ,"Person3" ,"Common" ,"á furnameen"]
     ]
   },
   {
@@ -1896,16 +1990,39 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"úun iče fúrnamin"],
-      ["Common" ,"Plural" ,"Person1" ,"úun nah fúrnamin"],
-      ["Fem" ,"Singular" ,"Person3" ,"úun (us) fúrnamin"],
-      ["Common" ,"Plural" ,"Person3" ,"úun ičo fúrnamin"],
-      ["Common" ,"Singular" ,"Person1" ,"úun an fúrnamin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"úun an fúrnamin"],
+      ["Singular" ,"Person3" ,"Masc" ,"úun iče fúrnamin"],
+      ["Singular" ,"Person3" ,"Fem" ,"úun (us) fúrnamin"],
+      ["Plural" ,"Person1" ,"Common" ,"úun nah fúrnamin"],
+      ["Plural" ,"Person3" ,"Common" ,"úun ičo fúrnamin"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-M2PerfectAffirmative",
+    "label": "ren-VerbSuffix-fur-M2PerfectAffirmativeMain",
+    "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
+    "common": {
+      "clauseType": "Main",
+      "conjClass": "Suffix",
+      "derivedStem": "M2",
+      "lexeme": "fur",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"furname"],
+      ["Singular" ,"Person2" ,"Common" ,"furnante / furmante"],
+      ["Singular" ,"Person3" ,"Masc" ,"furname"],
+      ["Singular" ,"Person3" ,"Fem" ,"furnante / furmante"],
+      ["Plural" ,"Person1" ,"Common" ,"furnanne / furmanne "],
+      ["Plural" ,"Person2" ,"Common" ,"furnanteen / furmanteen"],
+      ["Plural" ,"Person3" ,"Common" ,"furnameen"]
+    ]
+  },
+  {
+    "label": "ren-VerbSuffix-fur-M2PerfectAffirmativeSubordinate",
     "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
     "common": {
       "clauseType": "Subordinate",
@@ -1917,41 +2034,18 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"furname"],
-      ["Common" ,"Plural" ,"Person1" ,"furnanne / furmanne "],
-      ["Common" ,"Plural" ,"Person2" ,"furnanteen / furmanteen"],
-      ["Common" ,"Singular" ,"Person1" ,"furname"],
-      ["Common" ,"Plural" ,"Person3" ,"furnameen"],
-      ["Fem" ,"Singular" ,"Person3" ,"furnante / furmante"],
-      ["Common" ,"Singular" ,"Person2" ,"furnante / furmante"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"furname"],
+      ["Singular" ,"Person2" ,"Common" ,"furnante / furmante"],
+      ["Singular" ,"Person3" ,"Masc" ,"furname"],
+      ["Singular" ,"Person3" ,"Fem" ,"furnante / furmante"],
+      ["Plural" ,"Person1" ,"Common" ,"furnanne / furmanne "],
+      ["Plural" ,"Person2" ,"Common" ,"furnanteen / furmanteen"],
+      ["Plural" ,"Person3" ,"Common" ,"furnameen"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-fur-M2PerfectAffirmative",
-    "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
-    "common": {
-      "clauseType": "Main",
-      "conjClass": "Suffix",
-      "derivedStem": "M2",
-      "lexeme": "fur",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Perfect"
-    },
-    "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"furnameen"],
-      ["Fem" ,"Singular" ,"Person3" ,"furnante / furmante"],
-      ["Common" ,"Plural" ,"Person2" ,"furnanteen / furmanteen"],
-      ["Common" ,"Singular" ,"Person1" ,"furname"],
-      ["Common" ,"Plural" ,"Person1" ,"furnanne / furmanne "],
-      ["Masc" ,"Singular" ,"Person3" ,"furname"],
-      ["Common" ,"Singular" ,"Person2" ,"furnante / furmante"]
-    ]
-  },
-  {
-    "label": "ren-VerbSuffix-fur-M2PerfectNegative",
+    "label": "ren-VerbSuffix-fur-M2PerfectNegativeMain",
     "note": "PG99pp.47-52 :: Passive forms  of fur- are mostly extrapolated from Pillinger-Galboran1999 pp. 47- 52;in text (p. 52) only imperf indic aff and neg given.",
     "common": {
       "clauseType": "Main",
@@ -1963,19 +2057,19 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"má furnamin"],
-      ["Common" ,"Plural" ,"Person1" ,"má furnamin"],
-      ["Common" ,"Singular" ,"Person1" ,"má furnamin"],
-      ["Common" ,"Singular" ,"Person2" ,"má furnamin"],
-      ["Common" ,"Plural" ,"Person3" ,"má furnamin"],
-      ["Fem" ,"Singular" ,"Person3" ,"má furnamin"],
-      ["Common" ,"Plural" ,"Person2" ,"má furnamin"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má furnamin"],
+      ["Singular" ,"Person2" ,"Common" ,"má furnamin"],
+      ["Singular" ,"Person3" ,"Masc" ,"má furnamin"],
+      ["Singular" ,"Person3" ,"Fem" ,"má furnamin"],
+      ["Plural" ,"Person1" ,"Common" ,"má furnamin"],
+      ["Plural" ,"Person2" ,"Common" ,"má furnamin"],
+      ["Plural" ,"Person3" ,"Common" ,"má furnamin"]
     ]
   },
   {
     "label": "ren-VerbSuffix-kar-SConcessiveAffirmative",
-    "note": "PG99p.",
+    "note": "PG99pp.49-51",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "S",
@@ -1985,19 +2079,19 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"karínnéey"],
-      ["Common" ,"Plural" ,"Person3" ,"karčeénéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"kárčéey"],
-      ["Common" ,"Plural" ,"Person2" ,"karisseénéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"karísséey"],
-      ["Common" ,"Singular" ,"Person1" ,"kárčéey"],
-      ["Common" ,"Singular" ,"Person2" ,"karísséey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kárčéey"],
+      ["Singular" ,"Person2" ,"Common" ,"karísséey"],
+      ["Singular" ,"Person3" ,"Masc" ,"kárčéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"karísséey"],
+      ["Plural" ,"Person1" ,"Common" ,"karínnéey"],
+      ["Plural" ,"Person2" ,"Common" ,"karisseénéey"],
+      ["Plural" ,"Person3" ,"Common" ,"karčeénéey"]
     ]
   },
   {
     "label": "ren-VerbSuffix-kar-SConcessiveNegative",
-    "note": "PG99p.",
+    "note": "PG99pp.49-51",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "S",
@@ -2007,19 +2101,19 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person2" ,"má karínéey"],
-      ["Common" ,"Plural" ,"Person3" ,"má karínéey"],
-      ["Common" ,"Plural" ,"Person1" ,"má karínéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"má karínéey"],
-      ["Common" ,"Singular" ,"Person2" ,"má karínéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"má karínéey"],
-      ["Common" ,"Singular" ,"Person1" ,"má karínéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má karínéey"],
+      ["Singular" ,"Person2" ,"Common" ,"má karínéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"má karínéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"má karínéey"],
+      ["Plural" ,"Person1" ,"Common" ,"má karínéey"],
+      ["Plural" ,"Person2" ,"Common" ,"má karínéey"],
+      ["Plural" ,"Person3" ,"Common" ,"má karínéey"]
     ]
   },
   {
     "label": "ren-VerbSuffix-kar-SImperativeAffirmative",
-    "note": "PG99p.",
+    "note": "PG99pp.49-51",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "S",
@@ -2029,14 +2123,14 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person2" ,"Common" ,"kari"],
       ["Plural" ,"Person2" ,"Common" ,"kárča"]
     ]
   },
   {
     "label": "ren-VerbSuffix-kar-SImperativeNegative",
-    "note": "PG99p.",
+    "note": "PG99pp.49-51",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "S",
@@ -2046,14 +2140,14 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Singular" ,"Person2" ,"Common" ,"akarín"],
       ["Plural" ,"Person2" ,"Common" ,"akarína"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-kar-SImperfectAffirmative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-kar-SImperfectAffirmativeMain",
+    "note": "PG99pp.49-51",
     "common": {
       "clauseType": "Main",
       "conjClass": "Suffix",
@@ -2064,19 +2158,19 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"karča"],
-      ["Common" ,"Plural" ,"Person2" ,"karissaan"],
-      ["Fem" ,"Singular" ,"Person3" ,"karissa"],
-      ["Common" ,"Singular" ,"Person2" ,"karissa"],
-      ["Common" ,"Plural" ,"Person3" ,"karčaan"],
-      ["Masc" ,"Singular" ,"Person3" ,"karča"],
-      ["Common" ,"Plural" ,"Person1" ,"karinna"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"karča"],
+      ["Singular" ,"Person2" ,"Common" ,"karissa"],
+      ["Singular" ,"Person3" ,"Masc" ,"karča"],
+      ["Singular" ,"Person3" ,"Fem" ,"karissa"],
+      ["Plural" ,"Person1" ,"Common" ,"karinna"],
+      ["Plural" ,"Person2" ,"Common" ,"karissaan"],
+      ["Plural" ,"Person3" ,"Common" ,"karčaan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-kar-SImperfectAffirmative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-kar-SImperfectAffirmativeSubordinate",
+    "note": "PG99pp.49-51",
     "common": {
       "clauseType": "Subordinate",
       "conjClass": "Suffix",
@@ -2087,42 +2181,19 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"karčo"],
-      ["Common" ,"Plural" ,"Person3" ,"karčaan"],
-      ["Common" ,"Singular" ,"Person2" ,"karisso"],
-      ["Common" ,"Singular" ,"Person1" ,"karčo"],
-      ["Fem" ,"Singular" ,"Person3" ,"karisso"],
-      ["Common" ,"Plural" ,"Person1" ,"karinno"],
-      ["Common" ,"Plural" ,"Person2" ,"karissaan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"karčo"],
+      ["Singular" ,"Person2" ,"Common" ,"karisso"],
+      ["Singular" ,"Person3" ,"Masc" ,"karčo"],
+      ["Singular" ,"Person3" ,"Fem" ,"karisso"],
+      ["Plural" ,"Person1" ,"Common" ,"karinno"],
+      ["Plural" ,"Person2" ,"Common" ,"karissaan"],
+      ["Plural" ,"Person3" ,"Common" ,"karčaan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-kar-SImperfectNegative",
-    "note": "PG99p.",
-    "common": {
-      "clauseType": "Subordinate",
-      "conjClass": "Suffix",
-      "derivedStem": "S",
-      "lexeme": "kar",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Imperfect"
-    },
-    "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"íkarín"],
-      ["Common" ,"Plural" ,"Person3" ,"íkarín"],
-      ["Common" ,"Plural" ,"Person1" ,"íkarín"],
-      ["Fem" ,"Singular" ,"Person3" ,"íkarín"],
-      ["Common" ,"Singular" ,"Person2" ,"íkarín"],
-      ["Common" ,"Singular" ,"Person1" ,"íkarín"],
-      ["Common" ,"Plural" ,"Person2" ,"íkarín"]
-    ]
-  },
-  {
-    "label": "ren-VerbSuffix-kar-SImperfectNegative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-kar-SImperfectNegativeMain",
+    "note": "PG99pp.49-51",
     "common": {
       "clauseType": "Main",
       "conjClass": "Suffix",
@@ -2133,19 +2204,42 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Fem" ,"Singular" ,"Person3" ,"má karisso"],
-      ["Common" ,"Plural" ,"Person2" ,"má karissaan"],
-      ["Common" ,"Singular" ,"Person2" ,"má karisso"],
-      ["Common" ,"Plural" ,"Person1" ,"má karinno"],
-      ["Masc" ,"Singular" ,"Person3" ,"má karčo"],
-      ["Common" ,"Singular" ,"Person1" ,"má karčo"],
-      ["Common" ,"Plural" ,"Person3" ,"má karčaan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má karčo"],
+      ["Singular" ,"Person2" ,"Common" ,"má karisso"],
+      ["Singular" ,"Person3" ,"Masc" ,"má karčo"],
+      ["Singular" ,"Person3" ,"Fem" ,"má karisso"],
+      ["Plural" ,"Person1" ,"Common" ,"má karinno"],
+      ["Plural" ,"Person2" ,"Common" ,"má karissaan"],
+      ["Plural" ,"Person3" ,"Common" ,"má karčaan"]
+    ]
+  },
+  {
+    "label": "ren-VerbSuffix-kar-SImperfectNegativeSubordinate",
+    "note": "PG99pp.49-51",
+    "common": {
+      "clauseType": "Subordinate",
+      "conjClass": "Suffix",
+      "derivedStem": "S",
+      "lexeme": "kar",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"íkarín"],
+      ["Singular" ,"Person2" ,"Common" ,"íkarín"],
+      ["Singular" ,"Person3" ,"Masc" ,"íkarín"],
+      ["Singular" ,"Person3" ,"Fem" ,"íkarín"],
+      ["Plural" ,"Person1" ,"Common" ,"íkarín"],
+      ["Plural" ,"Person2" ,"Common" ,"íkarín"],
+      ["Plural" ,"Person3" ,"Common" ,"íkarín"]
     ]
   },
   {
     "label": "ren-VerbSuffix-kar-SOptativeAffirmative",
-    "note": "PG99p.",
+    "note": "PG99pp.49-51",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "S",
@@ -2155,17 +2249,17 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"á karinno"],
-      ["Fem" ,"Singular" ,"Person3" ,"á karčo"],
-      ["Common" ,"Plural" ,"Person1" ,"á karisso"],
-      ["Common" ,"Singular" ,"Person1" ,"á karčo"],
-      ["Masc" ,"Singular" ,"Person3" ,"á karisso"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á karčo"],
+      ["Singular" ,"Person3" ,"Masc" ,"á karisso"],
+      ["Singular" ,"Person3" ,"Fem" ,"á karčo"],
+      ["Plural" ,"Person1" ,"Common" ,"á karisso"],
+      ["Plural" ,"Person3" ,"Common" ,"á karinno"]
     ]
   },
   {
     "label": "ren-VerbSuffix-kar-SOptativeNegative",
-    "note": "PG99p.",
+    "note": "PG99pp.49-51",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "S",
@@ -2175,17 +2269,17 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"úun nah karín"],
-      ["Masc" ,"Singular" ,"Person3" ,"úun iče karín"],
-      ["Fem" ,"Singular" ,"Person3" ,"úun (us) karín"],
-      ["Common" ,"Singular" ,"Person1" ,"úun an karín"],
-      ["Common" ,"Plural" ,"Person3" ,"úun ičo karín"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"úun an karín"],
+      ["Singular" ,"Person3" ,"Masc" ,"úun iče karín"],
+      ["Singular" ,"Person3" ,"Fem" ,"úun (us) karín"],
+      ["Plural" ,"Person1" ,"Common" ,"úun nah karín"],
+      ["Plural" ,"Person3" ,"Common" ,"úun ičo karín"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-kar-SPerfectAffirmative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-kar-SPerfectAffirmativeMain",
+    "note": "PG99pp.49-51",
     "common": {
       "clauseType": "Main",
       "conjClass": "Suffix",
@@ -2196,19 +2290,19 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"karčeen"],
-      ["Masc" ,"Singular" ,"Person3" ,"karče"],
-      ["Fem" ,"Singular" ,"Person3" ,"karisse"],
-      ["Common" ,"Plural" ,"Person2" ,"karisseen"],
-      ["Common" ,"Singular" ,"Person1" ,"karče"],
-      ["Common" ,"Plural" ,"Person1" ,"karinne"],
-      ["Common" ,"Singular" ,"Person2" ,"karisse"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"karče"],
+      ["Singular" ,"Person2" ,"Common" ,"karisse"],
+      ["Singular" ,"Person3" ,"Masc" ,"karče"],
+      ["Singular" ,"Person3" ,"Fem" ,"karisse"],
+      ["Plural" ,"Person1" ,"Common" ,"karinne"],
+      ["Plural" ,"Person2" ,"Common" ,"karisseen"],
+      ["Plural" ,"Person3" ,"Common" ,"karčeen"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-kar-SPerfectAffirmative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-kar-SPerfectAffirmativeSubordinate",
+    "note": "PG99pp.49-51",
     "common": {
       "clauseType": "Subordinate",
       "conjClass": "Suffix",
@@ -2219,42 +2313,19 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"karinne"],
-      ["Fem" ,"Singular" ,"Person3" ,"karisse"],
-      ["Common" ,"Plural" ,"Person3" ,"karčeen"],
-      ["Masc" ,"Singular" ,"Person3" ,"karče"],
-      ["Common" ,"Singular" ,"Person2" ,"karisse"],
-      ["Common" ,"Singular" ,"Person1" ,"karče"],
-      ["Common" ,"Plural" ,"Person2" ,"karisseen"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"karče"],
+      ["Singular" ,"Person2" ,"Common" ,"karisse"],
+      ["Singular" ,"Person3" ,"Masc" ,"karče"],
+      ["Singular" ,"Person3" ,"Fem" ,"karisse"],
+      ["Plural" ,"Person1" ,"Common" ,"karinne"],
+      ["Plural" ,"Person2" ,"Common" ,"karisseen"],
+      ["Plural" ,"Person3" ,"Common" ,"karčeen"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-kar-SPerfectNegative",
-    "note": "PG99p.",
-    "common": {
-      "clauseType": "Subordinate",
-      "conjClass": "Suffix",
-      "derivedStem": "S",
-      "lexeme": "kar",
-      "polarity": "Negative",
-      "pos": "Verb",
-      "tam": "Perfect"
-    },
-    "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person2" ,"íkarín"],
-      ["Common" ,"Singular" ,"Person1" ,"íkarín"],
-      ["Fem" ,"Singular" ,"Person3" ,"íkarín"],
-      ["Masc" ,"Singular" ,"Person3" ,"íkarín"],
-      ["Common" ,"Plural" ,"Person3" ,"íkarín"],
-      ["Common" ,"Singular" ,"Person2" ,"íkarín"],
-      ["Common" ,"Plural" ,"Person1" ,"íkarín"]
-    ]
-  },
-  {
-    "label": "ren-VerbSuffix-kar-SPerfectNegative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-kar-SPerfectNegativeMain",
+    "note": "PG99pp.49-51",
     "common": {
       "clauseType": "Main",
       "conjClass": "Suffix",
@@ -2265,19 +2336,42 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person2" ,"má karín"],
-      ["Common" ,"Plural" ,"Person3" ,"má karín"],
-      ["Fem" ,"Singular" ,"Person3" ,"má karín"],
-      ["Common" ,"Plural" ,"Person2" ,"má karín"],
-      ["Common" ,"Plural" ,"Person1" ,"má karín"],
-      ["Masc" ,"Singular" ,"Person3" ,"má karín"],
-      ["Common" ,"Singular" ,"Person1" ,"má karín"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má karín"],
+      ["Singular" ,"Person2" ,"Common" ,"má karín"],
+      ["Singular" ,"Person3" ,"Masc" ,"má karín"],
+      ["Singular" ,"Person3" ,"Fem" ,"má karín"],
+      ["Plural" ,"Person1" ,"Common" ,"má karín"],
+      ["Plural" ,"Person2" ,"Common" ,"má karín"],
+      ["Plural" ,"Person3" ,"Common" ,"má karín"]
+    ]
+  },
+  {
+    "label": "ren-VerbSuffix-kar-SPerfectNegativeSubordinate",
+    "note": "PG99pp.49-51",
+    "common": {
+      "clauseType": "Subordinate",
+      "conjClass": "Suffix",
+      "derivedStem": "S",
+      "lexeme": "kar",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"íkarín"],
+      ["Singular" ,"Person2" ,"Common" ,"íkarín"],
+      ["Singular" ,"Person3" ,"Masc" ,"íkarín"],
+      ["Singular" ,"Person3" ,"Fem" ,"íkarín"],
+      ["Plural" ,"Person1" ,"Common" ,"íkarín"],
+      ["Plural" ,"Person2" ,"Common" ,"íkarín"],
+      ["Plural" ,"Person3" ,"Common" ,"íkarín"]
     ]
   },
   {
     "label": "ren-VerbSuffix-kar-TConcessiveAffirmative",
-    "note": "PG99p.",
+    "note": "PG99pp.49-51",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "T",
@@ -2287,19 +2381,19 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Fem" ,"Singular" ,"Person3" ,"karsáttéey"],
-      ["Common" ,"Plural" ,"Person3" ,"karsáteenéey"],
-      ["Common" ,"Singular" ,"Person2" ,"karsáttéey"],
-      ["Common" ,"Singular" ,"Person1" ,"karsádéey"],
-      ["Common" ,"Plural" ,"Person2" ,"karsátteenéey"],
-      ["Common" ,"Plural" ,"Person1" ,"karsánnéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"karsátéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"karsádéey"],
+      ["Singular" ,"Person2" ,"Common" ,"karsáttéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"karsátéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"karsáttéey"],
+      ["Plural" ,"Person1" ,"Common" ,"karsánnéey"],
+      ["Plural" ,"Person2" ,"Common" ,"karsátteenéey"],
+      ["Plural" ,"Person3" ,"Common" ,"karsáteenéey"]
     ]
   },
   {
     "label": "ren-VerbSuffix-kar-TConcessiveNegative",
-    "note": "PG99p.",
+    "note": "PG99pp.49-51",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "T",
@@ -2309,19 +2403,19 @@
       "tam": "Concessive"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"má kársanéey"],
-      ["Common" ,"Plural" ,"Person3" ,"má kársanéey"],
-      ["Common" ,"Singular" ,"Person1" ,"má kársanéey"],
-      ["Masc" ,"Singular" ,"Person3" ,"má kársanéey"],
-      ["Common" ,"Singular" ,"Person2" ,"má kársanéey"],
-      ["Common" ,"Plural" ,"Person2" ,"má kársanéey"],
-      ["Fem" ,"Singular" ,"Person3" ,"má kársanéey"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má kársanéey"],
+      ["Singular" ,"Person2" ,"Common" ,"má kársanéey"],
+      ["Singular" ,"Person3" ,"Masc" ,"má kársanéey"],
+      ["Singular" ,"Person3" ,"Fem" ,"má kársanéey"],
+      ["Plural" ,"Person1" ,"Common" ,"má kársanéey"],
+      ["Plural" ,"Person2" ,"Common" ,"má kársanéey"],
+      ["Plural" ,"Person3" ,"Common" ,"má kársanéey"]
     ]
   },
   {
     "label": "ren-VerbSuffix-kar-TImperativeAffirmative",
-    "note": "PG99p.",
+    "note": "PG99pp.49-51",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "T",
@@ -2331,14 +2425,14 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Plural" ,"Person2" ,"Common" ,"karsáda"],
       ["Singular" ,"Person2" ,"Common" ,"karso"]
     ]
   },
   {
     "label": "ren-VerbSuffix-kar-TImperativeNegative",
-    "note": "PG99p.",
+    "note": "PG99pp.49-51",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "T",
@@ -2348,37 +2442,14 @@
       "tam": "Imperative"
     },
     "terms": [
-      ["number" ,"token"],
+      ["number" ,"person" ,"gender" ,"token"],
       ["Plural" ,"Person2" ,"Common" ,"akarsána"],
       ["Singular" ,"Person2" ,"Common" ,"akársan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-kar-TImperfectAffirmative",
-    "note": "PG99p.",
-    "common": {
-      "clauseType": "Subordinate",
-      "conjClass": "Suffix",
-      "derivedStem": "T",
-      "lexeme": "kar",
-      "polarity": "Affirmative",
-      "pos": "Verb",
-      "tam": "Imperfect"
-    },
-    "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person2" ,"karsattaan"],
-      ["Common" ,"Plural" ,"Person1" ,"karsanni"],
-      ["Common" ,"Singular" ,"Person2" ,"karsatti"],
-      ["Fem" ,"Singular" ,"Person3" ,"karsatti"],
-      ["Masc" ,"Singular" ,"Person3" ,"karsati"],
-      ["Common" ,"Singular" ,"Person1" ,"karsadi"],
-      ["Common" ,"Plural" ,"Person3" ,"karsataan"]
-    ]
-  },
-  {
-    "label": "ren-VerbSuffix-kar-TImperfectAffirmative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-kar-TImperfectAffirmativeMain",
+    "note": "PG99pp.49-51",
     "common": {
       "clauseType": "Main",
       "conjClass": "Suffix",
@@ -2389,19 +2460,42 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"karsataan"],
-      ["Common" ,"Plural" ,"Person2" ,"karsattaan"],
-      ["Common" ,"Singular" ,"Person2" ,"karsatta"],
-      ["Fem" ,"Singular" ,"Person3" ,"karsatta"],
-      ["Common" ,"Plural" ,"Person1" ,"karsanna "],
-      ["Masc" ,"Singular" ,"Person3" ,"karsata"],
-      ["Common" ,"Singular" ,"Person1" ,"karsada"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"karsada"],
+      ["Singular" ,"Person2" ,"Common" ,"karsatta"],
+      ["Singular" ,"Person3" ,"Masc" ,"karsata"],
+      ["Singular" ,"Person3" ,"Fem" ,"karsatta"],
+      ["Plural" ,"Person1" ,"Common" ,"karsanna "],
+      ["Plural" ,"Person2" ,"Common" ,"karsattaan"],
+      ["Plural" ,"Person3" ,"Common" ,"karsataan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-kar-TImperfectNegative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-kar-TImperfectAffirmativeSubordinate",
+    "note": "PG99pp.49-51",
+    "common": {
+      "clauseType": "Subordinate",
+      "conjClass": "Suffix",
+      "derivedStem": "T",
+      "lexeme": "kar",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"karsadi"],
+      ["Singular" ,"Person2" ,"Common" ,"karsatti"],
+      ["Singular" ,"Person3" ,"Masc" ,"karsati"],
+      ["Singular" ,"Person3" ,"Fem" ,"karsatti"],
+      ["Plural" ,"Person1" ,"Common" ,"karsanni"],
+      ["Plural" ,"Person2" ,"Common" ,"karsattaan"],
+      ["Plural" ,"Person3" ,"Common" ,"karsataan"]
+    ]
+  },
+  {
+    "label": "ren-VerbSuffix-kar-TImperfectNegativeMain",
+    "note": "PG99pp.49-51",
     "common": {
       "clauseType": "Main",
       "conjClass": "Suffix",
@@ -2412,19 +2506,19 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person2" ,"má karsattaan"],
-      ["Common" ,"Singular" ,"Person2" ,"má karsatti"],
-      ["Common" ,"Plural" ,"Person1" ,"má karsanni"],
-      ["Masc" ,"Singular" ,"Person3" ,"má karsati"],
-      ["Common" ,"Singular" ,"Person1" ,"má karsadi"],
-      ["Fem" ,"Singular" ,"Person3" ,"má karsatti"],
-      ["Common" ,"Plural" ,"Person3" ,"má karsataan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má karsadi"],
+      ["Singular" ,"Person2" ,"Common" ,"má karsatti"],
+      ["Singular" ,"Person3" ,"Masc" ,"má karsati"],
+      ["Singular" ,"Person3" ,"Fem" ,"má karsatti"],
+      ["Plural" ,"Person1" ,"Common" ,"má karsanni"],
+      ["Plural" ,"Person2" ,"Common" ,"má karsattaan"],
+      ["Plural" ,"Person3" ,"Common" ,"má karsataan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-kar-TImperfectNegative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-kar-TImperfectNegativeSubordinate",
+    "note": "PG99pp.49-51",
     "common": {
       "clauseType": "Subordinate",
       "conjClass": "Suffix",
@@ -2435,19 +2529,19 @@
       "tam": "Imperfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Singular" ,"Person1" ,"íkarsan"],
-      ["Common" ,"Singular" ,"Person2" ,"íkarsan"],
-      ["Common" ,"Plural" ,"Person1" ,"íkarsan"],
-      ["Fem" ,"Singular" ,"Person3" ,"íkarsan"],
-      ["Masc" ,"Singular" ,"Person3" ,"íkarsan"],
-      ["Common" ,"Plural" ,"Person2" ,"íkarsan"],
-      ["Common" ,"Plural" ,"Person3" ,"íkarsan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"íkarsan"],
+      ["Singular" ,"Person2" ,"Common" ,"íkarsan"],
+      ["Singular" ,"Person3" ,"Masc" ,"íkarsan"],
+      ["Singular" ,"Person3" ,"Fem" ,"íkarsan"],
+      ["Plural" ,"Person1" ,"Common" ,"íkarsan"],
+      ["Plural" ,"Person2" ,"Common" ,"íkarsan"],
+      ["Plural" ,"Person3" ,"Common" ,"íkarsan"]
     ]
   },
   {
     "label": "ren-VerbSuffix-kar-TOptativeAffirmative",
-    "note": "PG99p.",
+    "note": "PG99pp.49-51",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "T",
@@ -2457,17 +2551,17 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"á karsataan"],
-      ["Fem" ,"Singular" ,"Person3" ,"á karsatti"],
-      ["Masc" ,"Singular" ,"Person3" ,"á karsati"],
-      ["Common" ,"Singular" ,"Person1" ,"á karsadi"],
-      ["Common" ,"Plural" ,"Person1" ,"á karsanni"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á karsadi"],
+      ["Singular" ,"Person3" ,"Masc" ,"á karsati"],
+      ["Singular" ,"Person3" ,"Fem" ,"á karsatti"],
+      ["Plural" ,"Person1" ,"Common" ,"á karsanni"],
+      ["Plural" ,"Person3" ,"Common" ,"á karsataan"]
     ]
   },
   {
     "label": "ren-VerbSuffix-kar-TOptativeNegative",
-    "note": "PG99p.",
+    "note": "PG99pp.49-51",
     "common": {
       "conjClass": "Suffix",
       "derivedStem": "T",
@@ -2477,17 +2571,17 @@
       "tam": "Optative"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"úun nah kársan"],
-      ["Common" ,"Plural" ,"Person3" ,"úun ičo kársan"],
-      ["Masc" ,"Singular" ,"Person3" ,"úun iče kársan"],
-      ["Common" ,"Singular" ,"Person1" ,"úun an kársan"],
-      ["Fem" ,"Singular" ,"Person3" ,"úun (us) kársan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"úun an kársan"],
+      ["Singular" ,"Person3" ,"Masc" ,"úun iče kársan"],
+      ["Singular" ,"Person3" ,"Fem" ,"úun (us) kársan"],
+      ["Plural" ,"Person1" ,"Common" ,"úun nah kársan"],
+      ["Plural" ,"Person3" ,"Common" ,"úun ičo kársan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-kar-TPerfectAffirmative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-kar-TPerfectAffirmativeMain",
+    "note": "PG99pp.49-51",
     "common": {
       "clauseType": "Main",
       "conjClass": "Suffix",
@@ -2498,18 +2592,18 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person3" ,"má karsan"],
-      ["Masc" ,"Singular" ,"Person3" ,"má karsan"],
-      ["Common" ,"Plural" ,"Person1" ,"má karsan"],
-      ["Common" ,"Plural" ,"Person2" ,"má karsan"],
-      ["Fem" ,"Singular" ,"Person3" ,"má karsan"],
-      ["Common" ,"Singular" ,"Person2" ,"má karsan"],
-      ["Common" ,"Singular" ,"Person1" ,"má karsan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má karsan"],
+      ["Singular" ,"Person2" ,"Common" ,"má karsan"],
+      ["Singular" ,"Person3" ,"Masc" ,"má karsan"],
+      ["Singular" ,"Person3" ,"Fem" ,"má karsan"],
+      ["Plural" ,"Person1" ,"Common" ,"má karsan"],
+      ["Plural" ,"Person2" ,"Common" ,"má karsan"],
+      ["Plural" ,"Person3" ,"Common" ,"má karsan"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-kar-TPerfectAffirmative",
+    "label": "ren-VerbSuffix-kar-TPerfectAffirmativeSubordinate",
     "note": "PG99p.49",
     "common": {
       "clauseType": "Subordinate",
@@ -2521,19 +2615,19 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Masc" ,"Singular" ,"Person3" ,"karsate"],
-      ["Fem" ,"Singular" ,"Person3" ,"karsatte"],
-      ["Common" ,"Singular" ,"Person2" ,"karsatte"],
-      ["Common" ,"Plural" ,"Person1" ,"karsanne"],
-      ["Common" ,"Plural" ,"Person2" ,"karsatteen"],
-      ["Common" ,"Singular" ,"Person1" ,"karsade"],
-      ["Common" ,"Plural" ,"Person3" ,"karsateen"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"karsade"],
+      ["Singular" ,"Person2" ,"Common" ,"karsatte"],
+      ["Singular" ,"Person3" ,"Masc" ,"karsate"],
+      ["Singular" ,"Person3" ,"Fem" ,"karsatte"],
+      ["Plural" ,"Person1" ,"Common" ,"karsanne"],
+      ["Plural" ,"Person2" ,"Common" ,"karsatteen"],
+      ["Plural" ,"Person3" ,"Common" ,"karsateen"]
     ]
   },
   {
-    "label": "ren-VerbSuffix-kar-TPerfectNegative",
-    "note": "PG99p.",
+    "label": "ren-VerbSuffix-kar-TPerfectNegativeSubordinate",
+    "note": "PG99pp.49-51",
     "common": {
       "clauseType": "Subordinate",
       "conjClass": "Suffix",
@@ -2544,14 +2638,14 @@
       "tam": "Perfect"
     },
     "terms": [
-      ["gender" ,"number" ,"person" ,"token"],
-      ["Common" ,"Plural" ,"Person1" ,"íkarsan"],
-      ["Common" ,"Plural" ,"Person3" ,"íkarsan"],
-      ["Common" ,"Singular" ,"Person2" ,"íkarsan"],
-      ["Common" ,"Singular" ,"Person1" ,"íkarsan"],
-      ["Masc" ,"Singular" ,"Person3" ,"íkarsan"],
-      ["Fem" ,"Singular" ,"Person3" ,"íkarsan"],
-      ["Common" ,"Plural" ,"Person2" ,"íkarsan"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"íkarsan"],
+      ["Singular" ,"Person2" ,"Common" ,"íkarsan"],
+      ["Singular" ,"Person3" ,"Masc" ,"íkarsan"],
+      ["Singular" ,"Person3" ,"Fem" ,"íkarsan"],
+      ["Plural" ,"Person1" ,"Common" ,"íkarsan"],
+      ["Plural" ,"Person2" ,"Common" ,"íkarsan"],
+      ["Plural" ,"Person3" ,"Common" ,"íkarsan"]
     ]
   }
 ]}
